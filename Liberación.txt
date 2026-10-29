@@ -1,0 +1,13 @@
+Se libera esta GM de la comunidad Actividad Role Play.
+
+- Créditos de la base: Actividad RP - Zenon City - Tu Vida Virtual Role Play.
+- GameMode muy completa, sistemas inacabados y muchos más.
+
+Cosas únicas a resaltar:
+
+- Sistema de negocios dinámico, facciones dinámicas. Creación de portones In Game, sistema de casas con guardado de armas, drogas, materiales y etc. 
+Existencia de graffitis, toys mejorados y más variedad, facciones y carpeta de maps fuera de uso.
+
+- Hagan buen uso de la GM, tiene mucho contenido y sistemas agregados, pero desactivados.
+
+- Si la GM no copila, usen los includes y plugins usados en la GM de Actividad Role Play 2.1. (Versió INI).

@@ -1,0 +1,2001 @@
+47000
+link WhatsApp viejo https://chat.whatsapp.com/F6GdT9nsqRcInSNTcMoJsZ?mode=ac_c
+
+link nuevo https://chat.whatsapp.com/DgsWsadu3Nn9QbARJDr1AD
+
+main() en la linea 4200
+
+veiculos en la 4328
+
+cosas a editar 
+pagina de Facebook
+versión 
+fechas 2025 por 2026
+
+hotsname 14521
+
+ayuda textdraw 14596
+
+Speedo nuevo 15274
+
+permitir veiculos de mafia rusa Mafia Rusa 15700
+
+PayDay 16623
+
+test de rol 29018
+
+****CMDS INICIO*****	31050
+
+canales 35541
+
+///////////////lista de comandos//////////////////////////
+
+/payday
+/comprarnegocio
+/mandarls
+/jetpack
+/entrar
+/salir
+/dooc (para lideres)
+/r (radio)
+/nokear
+/su
+/sospechosos
+/pagar
+/quitar
+/obtenerip
+/banip
+/desbanip
+/expulsarstaff
+/banoffline
+/ipod
+/cuenta
+/derechos
+/robar
+/balance
+/reportarbug
+/re (reporte)
+/darvida
+/darchaleco
+/darstat
+/repararveh
+/multicuenta
+Utiliza: /darstat (playerid/nombre) (Numero) (valor)");
+"1 Nivel 2 $ Bank 3 Tlf. 4 Respeto 5 ID Casa 6 Hierba 7 Drunk 8 Renta 9 E. Pelea 10 Mats 11 Drog 12 Edad 13 Trabajo 14 ID Veh 15 NMute 16 Warns");
+"17 ConnectTime 18 Jails 19 ID Casa[2] 20 Habilidad Armero 21 Pack Mat 22 Pack Drug 23 Total AD Mutes 24 Negocio 27 Religion 30 Casa[3]");
+/verstat
+/silenciar
+/qdinero (PlayerID) (Dinero) (Razón)
+/jail
+/ls
+/sf
+/lv
+/intentar
+/c (chat ic)
+/a
+/b (chat occ)
+/a (chat admin)
+/fumarhierba
+/fumarcrack
+/vidainf
+/servicios
+/spec (id off)
+/adminevento
+"____________________________________________________________________________________________________________");
+"*** EVENTO *** Escribe uno de estos comandos para m�s informaci�n");
+"*** EVENTO *** /eventopos /infoevento /empezarevento /cerrarevento /finevento /anunciar /goevento /salirevento");
+"____________________________________________________________________________________________________________");
+
+
+/////////rangos y divisiones de frac////////	37179
+
+cmd de freacciones como para invitar miembros en 37522
+
+/equipo
+
+ //***********Facciones legales******** 37712
+
+********Facciones Ilegales******* 	37797
+
+/////// SISTEMA DE RELIGIONES //////	39377
+
+"Religión incorecta: 1 al 4.");
+case 0: 	{rtext = "Ninguna";}
+case 1: 	{rtext = "Cristianismo";}
+case 2: 	{rtext = "Islamismo";}
+case 3: 	{rtext = "Nazismo";}
+case 4: 	{rtext = "Shintoismo";}
+
+//////////Navidad 41354//////////
+
+// zcmd:job 	42755
+
+// SISTEMA DE IDIOMAS //
+
+
+~y~| Scripter Lider: ~w~Rai Salazar.~n~\
+ ~y~| Web Master: ~w~Carlos Olivares~n~\
+ ~y~| Enc.Servidor: ~w~Matias Espinoza~n~\
+ ~y~| Publicista: ~w~Martin Camargo");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ShowRol(playerid)
+{
+	if(ShowRules[playerid] == 1)
+	{
+	    switch(RulesTime[playerid])
+	    {
+	        case 1:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 14000, 0, "d", playerid);
+	        	gOoc[playerid] = 1; gNews[playerid] = 1; gFam[playerid] = 1; gNewbie[playerid]=1; gMusic[playerid]=1;
+	        	SetPlayerVirtualWorld(playerid, playerid+1);
+	        	TogglePlayerControllable(playerid, 0);
+				Streamer_UpdateEx(playerid,370.0804,-2087.8767,7.8359);
+				SetPlayerPos(playerid,370.0804,-2087.8767,-10.0);
+				SetPlayerCameraPos(playerid,423.3802,-2067.7915,29.8605);
+				SetPlayerCameraLookAt(playerid,370.0804,-2087.8767,7.8359);
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Hola! Bienvenido al tutorial, esperamos que aprendas y te diviertas junto a todos.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Un administrador te envi� al tutorial con el fin de ayudarte a aprender y a disfrutar el roleplay.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Pulsa la tecla ESPACIO para seguir.");
+
+			}
+	        case 2:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 15000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "DeathMatch [DM]");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Qu� es DeathMatch [DM]? Bueno esto se llama a matar o golpear a una persona sin tener una razon para hacerlo.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Un ejemplo, si vas por la calle y empiezas a pegarle o a dispararle a alguien sin tener nin�n motivo");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "hasta matarlo, la persona te reportar� y tu puedes ser encarcelado por 10 a 30 minutos.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Haciendo esto estarias haciendo DeathMatch y va en contra las reglas del servidor.");
+	        }
+	        case 3:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 15000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Metagaming [MG]");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Qu� es Metagaming [MG]? Es usar informaci�n OOC dentro de IC o viceversa �No te quedo muy claro no?");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "bueno, como ver�s cada usuario tiene un nombre en su cabeza, es obvio que en la vida real no pasa lo mismo");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "para saber su nombre tienes que preguntarle; Hola �Cual es tu nombre? y el te responder�, desde ese momento ya");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "puedes llamarlo por su nombre. Tambi�n es usar signos de caracteres en el chat IC (xD, :), xP, etc).");
+	        }
+	        case 4:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 13000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "In Character - Out of Character (IC - OOC)");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "IC : Es la informaci�n que tu personaje obtiene en su vida (In Game), y s�lo tu personaje la sabe.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "OOC: Es la informaci�n que tu sabes como persona, la que est� manejando el personaje desde tu computador.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Por eso es que no puedes mezclar informaci�n IC con OOC o viceversa. Por que estar�as haciendo Metagaming.");
+	        }
+	        case 5:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 15000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Powergaming [PG]");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Qu� es Powergaming [PG]? Esto se llama a realizar actos (roles) ficticios y fuera de lo posible en la vida real.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Por ejemplo, Usas el comando /me se tira del edificio y sige caminando. Es l�gico que tu no vas a tirarte");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "de un quinto piso y salir vivo no?. Tambi�n es obligar/forzar a una persona hacer un ROL.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Por ejemplo, usando el comando /me le roba su dinero y se va corriendo. Imposible, para rolear tienes que tener criterio.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Recuerda eres un personaje REAL y tienes que portate como tal.");
+	        }
+	        case 6:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 14000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Revenge Kill (RK)");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Qu� es Revenge Kill [RK]? Cuando `mueres� en un ROL (Asalto a un banco, guerra de pandillas, etc)");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "tu no puedes regresar al mismo lugar y vengarte a por quien te mat�, ya que tu exactamente no mueres, resultas herido");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "y cuando te recuperas no recuerdas nada, entonces no puedes volver al mismo lugar, ya que no recuerdas nada.");
+	        }
+	        case 7:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 15000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Bad Driving (BD) - Badly Parked Car (BPC)");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Qu� es Bad Driving (BD) y Badly Parked Car (BPC)?");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Esto es muy sencillo y creo que su mismo nombre lo dice, se llama a manejar incorrectamente (por las veredas, atropellando gente, etc),");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "y es en contra las reglas del servidor, recuerda que est�s simulando la vida real.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Badly Parked Car se define en estacionar tu vehiculo de una manera imposible, o No-RP, por ejemplo en medio del asfalto.");
+	        }
+	        case 8:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 15000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Car Kill - Car Jack");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "�Car Kill (CK) y Car Jack (CJ)?");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, " * Car Kill es matar a una persona atropellandolo en varias ocaciones hasta matarlo.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, " * Car Jack es sacar a una persona de su auto sin ning�n rol alguno.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, " * Esos 2 Terminos son en contra del servidor y puedes ser castigado.");
+	        }
+	        case 9:
+	        {
+	            ClearChatbox(playerid);
+	        	PuedeD[playerid] = 1;
+	        	SetTimerEx("TutRolTimer", 14000, 0, "d", playerid);
+	        	SendClientMessageEx(playerid, COLOR_GENERAL, "Fin - Reglas de Rol");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Bien, espero que hayas aprendido en este resumen de las reglas de nuestro servidor, puedes entrar a nuestro");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "grupo de WhatsApp (https://chat.whatsapp.com/F6GdT9nsqRcInSNTcMoJsZ?mode=ac_c) y buscar m�s informaci�n, ahora volver�s a tu posici�n anterior, no perder�s nada.");
+	        	SendClientMessageEx(playerid, COLOR_WHITE, "Recuerda siempre que m�s importante es el rol de un presonaje. Bienvenido y disfruta del servidor!");
+	        }
+	        case 10:
+	        {
+	            ClearChatbox(playerid);
+	            gNewbie[playerid]=1; gMusic[playerid]=1; gOoc[playerid] = 0; gNews[playerid] = 0; gFam[playerid] = 0; gRel[playerid] = 0; RulesTime[playerid] = 0; RulesTime[playerid] = 0;
+				SetPlayerPos(playerid, GetPVarFloat(playerid, "rOldX"), GetPVarFloat(playerid, "rOldY"), GetPVarFloat(playerid, "rOldZ"));
+				SetPlayerVirtualWorld(playerid, GetPVarInt(playerid, "rOldVW"));
+				SetPlayerInterior(playerid, GetPVarInt(playerid, "rOldInt"));
+				Info[playerid][pVW] = GetPVarInt(playerid, "rOldVW");
+				Info[playerid][pInt] = GetPVarInt(playerid, "rOldInt");
+				ShowRules[playerid] = 0;
+		    	RulesTime[playerid] = 0;
+		        TogglePlayerControllable(playerid, 1);
+		        ClearAnimations(playerid);
+		        SetCameraBehindPlayer(playerid);
+		        SendClientMessageEx(playerid, COLOR_GENERAL, "Puedes seguir roleando, recuerda que su duda puede estar en /soporte, gracias.");
+	        }
+		}
+	}
+	return 1;
+}
+
+//***ayuda por textdraw***
+public OnPlayerClickTextDraw(playerid, Text:clickedid)
+{
+    if(_:clickedid != INVALID_TEXT_DRAW)
+    {
+        new cmd4[800]; // 500
+    	if(clickedid == AyudaX[1])
+    	{
+			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - General", "{FFFF00}[PJ]\n{FFFFFF}/cuenta /cambiarclave /tiendacash /tirar /mostrar /trabajoayuda /removergps /reanimar /dnifalso\n{FFFF00}[CMD'S]\n{FFFFFF}/pagar /payday /id /cfumar /comprar /comprarlicencia /animaciones /ven /google\n/ap /cp /apgarage /cpgarage /togduda /buscartrabajo /tognews /togfam /togphone /ocultarinfo /darcheque\n/eject /fumarcrack /fumarhierba /llenar /moneda /dar /contrato  /duda /re /e", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[2])
+    	{
+			if(IsAPolice(playerid))
+		    {
+		        SendClientMessageEx(playerid, COLOR_WHITE, "[Aviso Temporal] Los rangos 5 en delante son los �nicos que dan licencia de armas, /darlicencia [ID]. Tazer actualizado, /ta [Corto alcance] - /taoff - /tazer [Largo alcance].");
+      			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Comandos - SAPD", "/radio /r /d /m /su /esposar /desesposar /ta(off) /ap /radargun /limpiarcamion /vmaletero /ram /camaras /revisarcasa /incautar /luces\n/quitar /multar /detener /bk /bkc /tlc /derechos /codigos /bar(2)(3) /qb /placa /embargar /tgunmaletero /(q)(p)spikes /placaex\n/limpiar /sospechosos /sapddiv /verllaves /registroveh /dejarmulta /equipo /arrestar /destruirplanta /deposito /cono /bengala", "Cerrar", "");
+		    }
+		    else if(Team_Groove(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Groove Street", "{FFFF00}Comandos disponibles para la faccion Groove Street:\n{FFFFFF}/equipo /robar /miembros /graffiti(Rangos 3 en adelante) /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			 else if(Team_Latin(playerid))
+			{
+   				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Latin Kings", "{FFFF00}Comandos disponibles para la faccion Latin Kings:\n{FFFFFF}/equipo /robar /miembros /graffiti(Rangos 3 en adelante) /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			else if(Team_Yakuza(playerid))
+			{
+				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Yakuza", "{FFFF00}Comandos disponibles para la faccion Yakuza:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /jap /robarbanco (Solo-L�der)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			else if(Team_Santana(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Santana", "{FFFF00}Comandos disponibles para la faccion Santana:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /ing /robarbanco (Solo-L�der)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+		    else if(Team_SAMD(playerid))
+			{
+			    strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/equipo /secduty /gob /carnet (/r)adio (/d)epartaments (/m)eg�fono (/apgarage - /cpgarage)\n");
+				strcat(cmd4, "{23A9D6}[M�dicos] {FFFFFF}/sacarsangre /pcinfo /subirpt /dejarpt /irpt /curar\n");
+				strcat(cmd4, "{23A9D6}[Bombero] {FFFFFF}/qfuego /buscarfuego /bar(2)(3) /qb /cono /bengala /(q)(p)spikes");
+				ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- S.E.C", cmd4, "Cerrar", "");
+			}
+			else if(Team_Alqaeda(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Alqaeda", "{FFFF00}Comandos disponibles para la faccion Alqaeda:\n{FFFFFF}/equipo /miembros /f /apgarage /ara /himno - /gob\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			else if(Team_Rusa(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Rusa", "{FFFF00}Comandos disponibles para la faccion Rusos:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /rus /robarbanco (Solo-L�der)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			else if(Team_Ballas(playerid))
+			{
+		       	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ballas the Kings", "{FFFF00}Comandos disponibles para la Ballas:\n{FFFFFF}/equipo /robar /miembros /graffiti(Rangos 3 en adelante) /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n{FFFFFF}*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			 else if(Team_Sureno(playerid))
+			{
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Sure�os 13", "{FFFF00}Comandos disponibles para la faccion Sure�os 13:\n{FFFFFF}/equipo /robar /miembros /graffiti(Rangos 3 en adelante) /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n{FFFFFF}*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			 else if(Team_LCN(playerid))
+			{
+				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Italiana LCN", "{FFFF00}Comandos disponibles para la faccion LCN:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /ita /robarbanco (Solo-L�der)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facci�n.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facci�n ser� limpiada.", "Cerrar", "");
+			}
+			else if(Team_Mecanicos(playerid))
+			{
+          		ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Crazy Motors", "{FFFF00}Comandos disponibles para la faccion Crazy Motors:\n{FFFFFF}/miembros /menu /mduty /nitro /hyd \n/venderspray /remolcar /reparar /recargar /equipo /f\n/apgarage - /cpgarage - /abrirspray - /cerrarspray", "Cerrar", "");
+			}
+			else if(Hitman(playerid))
+			{
+			    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Agencia Hitman", "{FFFF00}Comandos disponibles para la faccion Hitman:\n{FFFFFF}/miembros /buscar /acontrato /amascara\n/darhit /hrangos /borrarhit /equipo /hits", "Cerrar", "");
+			}
+			else if(Team_SAEM(playerid))
+			{
+			    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}SAEM", "{FFFF00}Comandos disponibles para la faccion SAEM:\n{FFFFFF}/misil /equipo (/r)adio /d /m (/ta)zer /tgunmaletero /placaex /saemdiv /su /derechos /deposito\n/revisar /bar /placa /qb /esposar /gob /himno /limpiarcamion /vmaletero /(q)(p)spikes /detener /prision\nDiv M�dicos: /dejarpt - /subirpt", "Cerrar", "");
+			}
+			else if(Team_LSTV(playerid))
+			{
+       			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}LSTV", "{FFFF00}Comandos disponibles para la faccion LSTV:\n{FFFFFF}/miembros /nr (Noticias) - /entrevista /f /apgarage\n /equipo /activarlinea /sacarlinea /panum /carnet", "Cerrar", "");
+       			if(DirectorCNN(playerid)){SendClientMessageEx(playerid, COLOR_GRAD1, "Comando l�der LSTV: /sfondos - /dejarfondos - /adprecio - /ponermusica.");}
+			}
+			else if(Gobierno(playerid))
+			{
+			  	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Gobierno", "{FFFF00}Comandos disponibles para la faccion Gobierno:\n{FFFFFF}/miembros /equipo /gob /himno /impuesto\n/dejarfondos /gobdiv /apgarage /d /(r)adio", "Cerrar", "");
+			}
+  			else if(Team_Judicial(playerid)) // 10
+    		{
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}(/r)adio - /duty - [Ordenes] /orden - /qorden - /ordenes /arrestojudicial (Con polic�a presente)\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/ap - /cp (Sacar a la persona de prisi�n, pero s�lo para el juicio) - /verjuicios - /juicio\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/multajudicial - /indemnizar - /librarcargos (Sacar a persona de prisi�n, liberarlo)\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/revertir (Finalizar condena) - /scarcel (Condenar a la persona a prisi�n)\n\n");
+				strcat(cmd4, "{23A9D6}[MENSAJE] {FFFFFF}La facci�n es la �nica que puede juzgar a miembros de SAEM, LSPD y FBI. Hagan buen uso de los CMD.");
+				ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Sistema Judicial", cmd4, "Cerrar", "");
+			}
+			else if(Team_FBI(playerid))
+			{
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}FBI", "{FFFF00}Comandos disponibles para la faccion FBI:\n{FFFFFF}/miembros (/r)adio /d (/m)egaphone /su /encontrarveh\n/esposar /desesposar /ta(off) /vmaletero /equipo /arrestar /revisar /placa\n/deposito /quitar /multar /detener /derechos /codigos /encontrar /gob\n/limpiar /sospechosos /fbidiv /tgunmaletero /ram /revisarcasa /incautar /placaex /luces", "Cerrar", "");
+			}
+			else if(Team_CDG(playerid)) // 15
+			{
+   				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/f(amily) /equipo /puente /miembros - CMD b�sicos.\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/llenaralmacen [Cantidad] - Este comando es usado delante del almac�n de la facci�n a llenar.\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}Los miembros de CDG tienen que pagar 10 d�lares para comprar un producto, Ej: 20 Productos, te costar�n 200 d�lares.\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}Tienen que vender los productos a m�s de 10 d�lares la unidad para obtener beneficios, pagar antes de llenar el almac�n.\n");
+				ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- CDG", cmd4, "Cerrar", "");
+				//ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}C.D.G", "{FFFF00}Comandos disponibles para la faccion Cartel del Golfo:\n{FFFFFF}/f /equipo /puente /miembros /llenaralmacen [Delante del Almac�n de la FACC]", "Cerrar", "");
+			}
+			else if(Team_ALEPH(playerid))
+			{
+			    strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}/f(amily) /equipo /puente /miembros /ale (No es necesario aprenderlo en la Universidad)\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}Esta facci�n es sectaria, todo est� en centralizar su rol y no son una mafia.\n");
+				strcat(cmd4, "{23A9D6}[GENERAL] {FFFFFF}Su l�der se encarga de captar gente y amenazar al resto de facciones y darse a conocer.\n");
+				ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- ALEPHl", cmd4, "Cerrar", "");
+		        //ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}ALEPH", "{FFFF00}Comandos disponibles para la faccion ALEPH:\n{FFFFFF}/f /equipo /puente /miembros /ale", "Cerrar", "");
+			}
+    	}
+    	else if(clickedid == AyudaX[3])//{BE81F7}
+    	{
+   			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}El n�mero de Slots de los veh�culos depende de la cantidad de puntos de rol obtenidos.\n");
+			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}Se comienza con 4 veh�culos m�nimo y 10 veh�culos m�ximo. M�s informaci�n en /puntosrol.\n");
+			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}/estacionar - /v [Opci�n], /motor, /gps, /seguro, /gunlocker (Slots de armas en veh�culos)\n");
+			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}/smaletero (Sacar)- /gmaletero (Guardar) - /vendermicoche [ID] [Precio] - /vendercoche (En la DGT).\n");
+			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}/desguazar (Eliminar Veh�culo) - /llenar (Gasolina) - /darllave [ID] - /quitarllave [ID].\n");
+			strcat(cmd4, "{BE81F7}[VEH�CULOS] {FFFFFF}[Uso de Intermitentes]: Encienda las luces del veh�culo (/v luces), use [Q] o [E] para activar.");
+			ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Veh�culos", cmd4, "Cerrar", "");
+			//ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Veh�culo", "{FFFFFF}/estacionar /v (nombre) /gps /qmod /seguro\n/gunlocker /vendermicoche /borrarcoche /llenar\n /smaletero /gmaletero /darllave /quitarllave", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[4])
+    	{
+     		//new cmd8[600];
+            strcat(cmd4, "{BE81F7}[GARAGES]{FFFFFF} Compra: En caso de que dese� comprar un garage debe usar el comando {23A9D6}'/comprargarage'{FFFFFF}.\n");
+            strcat(cmd4, "{BE81F7}[GARAGES]{FFFFFF} Nombre: Una vez que has comprado un garage puedes colocarle un nombre, usa {23A9D6}'/nombregarage'{FFFFFF}.\n");
+            strcat(cmd4, "{BE81F7}[GARAGES]{FFFFFF} Abrir: Una vez que compraste tu garage puedes abrirlo e ingresar, �brelo con {23A9D6}'/abrirporton'{FFFFFF}.\n");
+            strcat(cmd4, "{BE81F7}[GARAGES]{FFFFFF} Cerrar: Tambi�n puedes cerrarlo para que nadie entre, cierralo con {23A9D6}'/cerrarporton'{FFFFFF}.\n");
+            strcat(cmd4, "{BE81F7}[GARAGES]{FFFFFF} Vender: Si decides que es tiempo de vender tu garage puedes usar el comando {23A9D6}'/vendergarage'{FFFFFF} o {23A9D6}'/vendermicasa'{FFFFFF}.");
+            ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Garages", cmd4, "Aceptar", "");
+                //ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Premium", "{FFFFFF}/invitaramigo /viplocker /venderfichasvip /togvip\n/automensaje /ayudafichas /togphone /vip\n/spawncasa /skinpremium /repararpremium", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[5])
+    	{
+    		strcat(cmd4, "{BE81F7}[CHAT] {FFFFFF}COMANDOS IC: (/g)ritar - (/s)usurar - /me - /do - /e(ntorno) - (/r)adio - /ad-/ads (Anuncios).\n");
+			strcat(cmd4, "{BE81F7}[CHAT] {FFFFFF}/acento - /idiomas - Tel�fono: /llamar - /sms - /altavoz - /agenda (Comprar Antes).\n");
+			strcat(cmd4, "{BE81F7}[CHAT] {FFFFFF}COMANDOS OOC: /b - (/w)hisper - (/f)accion. - /n(ew) - /vip (Chat OOC VIP).\n");
+			strcat(cmd4, "{BE81F7}[CHAT] {FFFFFF}/tog [Opci�n] - /duda - /soporte - /informacion - /re (Tomar SS si es posible).");
+			ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Chat", cmd4, "Cerrar", "");
+			//ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chat", "{FFFF00}Comandos IC:\n{FFFFFF}(/g)ritar (/s)usurar /me /c (/r)adio\n\n{FFFF00}Comandos OOC:\n{FFFFFF}/b (/w)hisper (/f)accion", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[6])
+    	{
+        	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Lider", "{FFFF00}[CMD Generales]: /contratar - /despedir - /darrango\n[CMD Fondos]: /faccin - /faccout\n[CMD Legales]: /gob - /dooc\n[CMD Ilegales]: /robarcasino - /robarbanco", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[7])
+    	{
+			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - armas", "{FFFFFF}/tarma /rarma /tirararma\n /aceptar (arma) /cancelar (arma)", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[8])
+    	{
+    		switch(Info[playerid][pJob])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}\n/precioviaje - /rutabus - /miruta", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		        case 15: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Trenero", "{FFFFFF}/rutatren /trenduty", "Cerrar", "");
+		        case 16: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Piloto", "{FFFFFF}/rutaavion /pilotoduty", "Cerrar", "");
+		        default: SendClientMessageEx(playerid, COLOR_WHITE, "No tienes un trabajo!");
+		    }
+		    switch(Info[playerid][pJob2])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}\n/precioviaje - /rutabus - /miruta", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		       	case 15: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Trenero", "{FFFFFF}/rutatren /trenduty", "Cerrar", "");
+		        case 16: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Piloto", "{FFFFFF}/rutaavion /pilotoduty", "Cerrar", "");
+		    }
+		}
+ 		else if(clickedid == AyudaX[9])
+    	{
+    	    strcat(cmd4, "{BE81F7}[NEGOCIOS] {FFFFFF}S�lo se puede tener un negocio por persona, seg�n el tipo de negocio el beneficio ser� diferente.\n");
+			strcat(cmd4, "{BE81F7}[NEGOCIOS] {FFFFFF}/binfo (Informaci�n completa del negocio) - /comprarnegocio - /vendernegocio.\n");
+			strcat(cmd4, "{BE81F7}[NEGOCIOS] {FFFFFF}/abrirnegocio - /cerrarnegocio - /negociomenu - /sganancias - /ncaja (Ajustes Caja Fuerte).\n");
+			strcat(cmd4, "{BE81F7}[NEGOCIOS] {FFFFFF}Extorsi�n: /extorcion - /qextorcion - /recaudar (Revisar ganancias del Negocio).\n");
+			ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Negocios", cmd4, "Cerrar", "");
+			//ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Negocio", "{FFFFFF}/comprarnegocio /vendernegocio /sganancias /binfo\n/extorcion /qextorcion /recaudar", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[10])
+    	{
+			if (Info[playerid][pFMember] != 255)
+		    {
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Familias", "{FFFFFF}/festado /familias /fdepositar /fretirar /cfdepositar\n/fropa /fsarma /fgarma\n\n{FFFF00}Comandos Lider:\n{FFFFFF}/ajustar /famrango /anombrerango /fseguro /festacionar\n/famllaves /fcomprarseguro(En 24/7)", "Cerrar", "");
+		    }
+		    else SendClientMessageEx(playerid, COLOR_WHITE, "No eres parte de una familia o banda.");
+    	}
+    	else if(clickedid == AyudaX[11])
+    	{
+	    	strcat(cmd4, "{BE81F7}[BANCO] {FFFFFF}Para abrir una cuenta bancaria tienes que ir el banco, una vez dentro usa /tarjeta para comenzar.\n");
+			strcat(cmd4, "{BE81F7}[BANCO] {FFFFFF}/depositar - /sacar - /transferir - /balance - /atm (Comando general)\n");
+			strcat(cmd4, "{BE81F7}[BANCO] {FFFFFF}El Estado de San Andreas otorga pr�stamos bancarios si lo solicitan via foro. (Subforo del Gobierno)\n");
+			ShowPlayerDialog(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{23A9D6}Ayuda {FFFFFF}- Banco", cmd4, "Cerrar", "");
+			//ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Banco", "{FFFFFF}/depositar /sacar /transferir\n /balance /atm /tarjeta", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaX[12])
+    	{
+  	    	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Casa", "{FFFFFF}/comprarcasa /rentar /desrentar /timbre /vendercasa(2)\n /ponerrenta /preciorenta /sarma /garma /cdepositar\n/cretirar /cmejorar /cajaestado /cseguro /cocinar /vendermicasa(2)/n/ajustarcasa /hinfo", "Cerrar", "");
+  	    	SendClientMessageEx(playerid, COLOR_WHITE, "[NUEVO]: Recuerda entrar frecuentemente al servidor para no perder tu casa. Si no entras en 31 d�as, se pondr� en venta. [/hinfo]");
+    	}
+    	else if(clickedid == AyudaX[13])
+    	{
+   			for(new i = 0; i < 15; i++)
+			{
+				TextDrawHideForPlayer(playerid, AyudaX[i]);
+			}
+			CancelSelectTextDraw(playerid);
+    	}
+    	else if(clickedid == AyudaX[14]) // /salirayuda - /soporte - /informacion
+    	{
+			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Matrimonio", "{FFFFFF}/testigo /proponer /divorcio", "Cerrar", "");
+    	}
+    	else if(clickedid == AyudaT[4])
+    	{
+    	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Telefono", "{FFFFFF}/llamar /sms /altavoz /agenda (Comprar Antes)", "Cerrar", "");
+		}
+ 	}
+    return 1;
+}
+
+CMD:habilidad(playerid, params[])
+{
+	if(isnull(params))
+	{
+		SendClientMessageEx(playerid, COLOR_GREEN, "Utiliza: /habilidad (N�mero)");
+		SendClientMessageEx(playerid, COLOR_GREY, "| 1: Vendedor de Armas 		| 4: Pesca");
+		SendClientMessageEx(playerid, COLOR_GREY, "| 2: Camionero         		| 5: Vendedor de drogas ");
+		SendClientMessageEx(playerid, COLOR_GREY, "| 3: Traficante de drogas 	| 6: Idiomas Extrangeros [NUEVO]");
+		return 1;
+	}
+
+CMD:cancelar(playerid, params[])
+{
+	new string[128], choice[32];
+	if(sscanf(params, "s[32]", choice))
+	{
+		SendClientMessageEx(playerid, COLOR_GREEN, "|__________________ Cancelar __________________|");
+		SendClientMessageEx(playerid, COLOR_WHITE, "Utiliza: /cancelar (Nombre)");
+		SendClientMessageEx(playerid, COLOR_GREY, "bebida - materiales - matrimonio - arma - divorcio - testigo");
+		SendClientMessageEx(playerid, COLOR_GREY, "telefono - taxi - multa - coche - mecanico - droga - casa - vip");
+		return 1;
+	}
+
+CMD:regalararma(playerid, params[])
+{
+    if(papilla[playerid] == 0) return SendClientMessageEx(playerid, COLOR_GRAD2, "{FFFF00}[ERROR]:{FFFFFF} No est�s en servicio administrativo {00F70C}/adminduty o /adminoffduty{FFFFFF} para usar este comando.");
+	if (Info[playerid][pAdminZC] >= 5000)
+	{
+        new sstring[128], playa, gun;
+        if(sscanf(params, "dd", playa, gun))
+		{
+            SendClientMessageEx(playerid, COLOR_WHITE, "Usa: /regalararma (ID) (ID Arma)");
+            SendClientMessageEx(playerid, COLOR_GREEN, "_____________________________________________________________________________________________________________________________");
+            SendClientMessageEx(playerid, COLOR_WHITE, "1: Brass Knuckles 2: Golf Club 3: Nite Stick 4: Knife 5: Baseball Bat 6: Shovel 7: Pool Cue 8: Katana 9: Chainsaw");
+            SendClientMessageEx(playerid, COLOR_WHITE, "10: Purple Dildo 11: Small White Vibrator 12: Large White Vibrator 13: Silver Vibrator 14: Flores 15: Cane 16: Frag Grenade");
+            SendClientMessageEx(playerid, COLOR_WHITE, "17: Tear Gas 18: Molotov Cocktail 19: Vehicle Missile 20: Hydra Flare 21: Jetpack 22: 9mm 23: Silenced 9mm 24: Desert Eagle");
+            SendClientMessageEx(playerid, COLOR_WHITE, "26: Sawnoff Shotgun 27: Combat Shotgun 28: Micro SMG (Mac 10) 29: SMG (MP5) 30: AK-47 31: M4 32: Tec9 33: Rifle");
+            SendClientMessageEx(playerid, COLOR_WHITE, "25: Shotgun 34: Sniper Rifle 35: Rocket Launcher 36: HS Rocket Launcher 37: Flamethrower 38: Minigun 39: Satchel Charge");
+            SendClientMessageEx(playerid, COLOR_WHITE, "40: Detonator 41: Spraycan 42: Fire Extinguisher 43: Camera 44: Nightvision Goggles 45: Infared Goggles 46: Parachute");
+            SendClientMessageEx(playerid, COLOR_GREEN, "_____________________________________________________________________________________________________________________________");
+            return 1;
+        }
+
+zcmd(ah, playerid, params[])
+{
+    if(papilla[playerid] == 0) return SendClientMessageEx(playerid, COLOR_GRAD2, "{FFFF00}[ERROR]:{FFFFFF} No estás en servicio administrativo {00F70C}/adminduty o /adminoffduty{FFFFFF} para usar este comando.");
+	new admstring[2450]; // Guardado de los CMD.
+	if(Admin(2,playerid))
+	{
+ 		strcat(admstring, "{01DF01}Comandos administrativos de INFINITY Role Play.\n");
+		strcat(admstring, "{BDBDBD}\n**Comandos Moderador A Pruebas**\n");
+		strcat(admstring, "{2F99B5}/adminduty o /adminoffduty /soffduty /togac /togpm /togmuertes /ar /rr /tipduda /reportes /cambiarint /cambiarvw /silenciar\n");
+		strcat(admstring, "{2F99B5}/staff /ir /traer /leetodo /slap /darskin /irpunto /punto /repararveh /desarmar /jail /ls /sf /lv /aa /a /verstat /warn\n");
+		strcat(admstring, "{2F99B5}/enmascarados /bloqre /desbloqre /checkllaves /mandarls /spec /liberar /(des)congelar /j /toghelper /noev\n");
+		strcat(admstring, "{2F99B5}/niveluno /darrol /desmutearad /mutearad /aduda /rduda /kick /kickname /listaafk /noobs /checkjail /encarcelados\n");
+	}
+	if(Admin(3,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Moderador Global**\n");
+		strcat(admstring, "{2F99B5}/quitardni /adminnombre /irfacc /nao /aforo /autovw /limpiarchat /irauto /jailoffline /entrarauto /ao\n");
+		strcat(admstring, "{2F99B5}/armareset /darrehelper /mandarsf /respawntodo /revivir /qseguroveh /notutorial /ooc (Chat eventos)\n");
+	}
+	if(Admin(4,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Junior**\n");
+		strcat(admstring, "{2F99B5}/banoffline /listafacciones /vehslap /traerauto /llenargas /recargarautos /respawncars /respawnauto\n");
+		strcat(admstring, "{2F99B5}/reparartodo /banear /bgf (Borrar Graffiti). /nog (Bloquear Uso del Graffiti)\n");
+	}
+	if(Admin(5,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Superior**\n");
+		strcat(admstring, "{2F99B5}/loteria /bloqbug /desbloqbug /cfuego /vidainf /darestilopelea /cambiarhora /aborrarplanta /smstodos\n");
+		strcat(admstring, "{2F99B5}/banip /musica [NUEVO] /versms - /verfam - /verwalkie\n");
+	}
+	if(Admin(6,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador General**\n");
+		strcat(admstring, "{2F99B5}/darlider /darmiembro /nofac /anunciostaff /facchat /weaponr /jetpack /qfaccoff /activarbanco /irnegocio\n");
+	}
+	if(Admin(10,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Líder**\n");
+		strcat(admstring, "{2F99B5}[E.F]: /adminfac - [E.F]: /adminfac - [G.O]: /dpr, /qpr y /dedicados.\n");
+	}
+	if(Admin(3000,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Líder**\n");
+		strcat(admstring, "{2F99B5}/limpiarreportes /darstat /ayudantes /qdinero /darfichaspball /msjhelper /darhelper /darliderhelper\n");
+		strcat(admstring, "{2F99B5}/quitarhelper /seteardinero /clima /climatodos /adminevento /darobjeto /msjvip /venderfichasv /verregalo\n");
+		strcat(admstring, "{2F99B5}/limpiarregalo /darfichascash /quitarfichascash\n");
+	}
+	if(Admin(4000,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Tecnico**\n");
+		strcat(admstring, "{2F99B5}/adminradar /adminnegocio /admincasa /adminfam /admingarage /adminporton /adminpuntos /adminactor /shopdoor\n");
+		strcat(admstring, "{2F99B5}/famchat /msjfam - /gotoco /getpos /goto - /ip /obtenerip /multicuenta [Autorizar/Rechazar]\n");
+	}
+	if(Admin(5000,playerid))
+	{
+		strcat(admstring, "{BDBDBD}\n**Comandos Administrador Subdueño**\n");
+		strcat(admstring, "{2F99B5}/mps /noduda /daref /darefam /dareban /crearregalo /regalararma /mslogueo /msjfacc /msjfam /editarf - /editarm - /editarp\n");
+		strcat(admstring, "{2F99B5}/msjstaff /sfondos /regaloatodos /horaregalo /activofuego /desactivofuego /expulsarstaff /borrarcuenta\n");
+	}
+	if(Admin(6000,playerid))
+	{
+		SendClientMessageEx(playerid, -1, "{BDBDBD}[EXTRA] Comandos de propietario (Usar con precaución).");
+		SendClientMessageEx(playerid, -1, "{2F99B5}/setpayday /editarnegocio /noac /darpremium /vipregalo /darauto /amotor /adminconcesionario /expdoble /crearactortemp");
+		SendClientMessageEx(playerid, -1, "{2F99B5}/dares [Encargado Staff] - /darefam [E. de Fams] - /daref [E. de Faccs] - /daregame [Game Operator] - /dareban [Bans]");
+	}
+	ShowPlayerDialog(playerid,CMDSTAFF,DIALOG_STYLE_MSGBOX,"Comandos Administrativos Generales",admstring,"Aceptar","");
+ 	return 1;
+
+zcmd(listafacciones, playerid, params[]){
+   	 if(papilla[playerid] == 0) return SendClientMessageEx(playerid, COLOR_GRAD2, "{FFFF00}[ERROR]:{FFFFFF} No estás en servicio administrativo {00F70C}/adminduty o /adminoffduty{FFFFFF} para usar este comando.");
+ 		if(Info[playerid][pAdminZC] > 3 || Info[playerid][pFactionModerator] == 1){
+			SendClientMessageEx(playerid, COLOR_ASKQ, "================== ID'S de Facciones ==================");
+			SendClientMessageEx(playerid, -1, "1. SAPD - 2. FBI - 3. SAEM - 4. S.E.C - 5. LSTV - 6. Crazy Motor - 7. Gobierno - 8. Hitman");
+			SendClientMessageEx(playerid, -1, "9. Sistema Judicial - 10. Groove Street - 11. Ballas the Kings - 12. Latin Kings - 13. Sur13");
+			SendClientMessageEx(playerid, -1, "14. Mafia Rusa - 15. LCN - 16. Yakuza - 17. C.D.G - 18. Santana - 19. Terroristas - 20. ALEPH");
+
+zcmd(staff, playerid, params[])
+	{
+	    new string[84];
+		if(Info[playerid][pAdminZC] >=2)
+		{
+		    SendClientMessageEx(playerid, COLOR_WHITE, "Admins en servicio:");
+  			foreach(Player, i)
+  			{
+  				if(Info[i][pAdminZC] >= 1 && Info[i][pAdminZC] <= Info[playerid][pAdminZC])
+  				{
+                    if(Info[i][pAdminZC] == 1)
+					{
+                        format(string, sizeof(string), "{FF8000}- Moderador a Pruebas: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 2)
+					{
+                        format(string, sizeof(string), "{FF8000}- Moderador: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 3)
+					{
+                        format(string, sizeof(string), "{FF8000}- Moderador Global: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 4)
+					{
+                        format(string, sizeof(string), "{FF8000}- Administrador: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 5)
+					{
+                        format(string, sizeof(string), "{FF8000}- Administrador General: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 6)
+					{
+                        format(string, sizeof(string), "{FF8000}- Administrador Líder: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 7)
+					{
+                        format(string, sizeof(string), "{FF8000}- Publicista: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 8)
+					{
+                        format(string, sizeof(string), "{FF8000}- Webmaster: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 9)
+					{
+                        format(string, sizeof(string), "{FF8000}- Mapper: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 10)
+					{
+                        format(string, sizeof(string), "{FF8000}- Game Operator: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 11)
+					{
+                        format(string, sizeof(string), "{FF8000}- Encargado de familias: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 12)
+					{
+                        format(string, sizeof(string), "{FF8000}- Encargado de facciones: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 4000)
+					{
+                        format(string, sizeof(string), "{FF8000}- Administrador técnico: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 5000)
+					{
+                        format(string, sizeof(string), "{FF8000}- Admin Subdueño: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else if(Info[i][pAdminZC] == 6000)
+					{
+                        format(string, sizeof(string), "{FF8000}- Admin Fundador: {FFFFFF}%s", GetPlayerNameEx(i));
+                    }
+                    else
+					{
+                        format(string, sizeof(string), "*{FF8000}Admin indefinido (%d): {FFFFFF}%s", Info[i][pAdminZC], GetPlayerNameEx(i));
+                    }
+                    SendClientMessageEx(playerid, COLOR_WHITE, string);
+  				}
+  			}
+		}
+		return 1;
+
+
+
+
+
+CMD:tipduda(playerid, params[]){
+	if(Info[playerid][pAdminZC] > 0){
+	        SendClientMessageEx(playerid, COLOR_WHITE, "{A2DC35}Tips para responder una duda.");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "Sé claro y directo, simplemente una respuesta clara");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "No es necesaria una conversación con el usuario, esto es sencillo, responde lo necesario.");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "Termina una y atiende otra, no te apresures.");
+	        return 1;
+	    }
+	    else{
+	        SendClientMessageEx(playerid, COLOR_WHITE, "{A2DC35}Tips para enviar una duda.");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "Sé claro y directo con el administrador, no necesitas conversar con él.");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "Si no te dieron una respuesta clara tienes todo el derecho de mandar otra duda.");
+	        SendClientMessageEx(playerid, COLOR_WHITE, "Usa el CMD /soporte para buscar la respuesta de tu duda manualmente si lo deseas.");
+
+CMD:infofacciones(playerid, params[])
+{
+    #pragma unused params
+	if(IsPlayerConnected(playerid))
+	{
+		SendClientMessageEx(playerid, COLOR_RED, "[IMPORTANTE] Información respecto a facciones/familias. [Leer con atención]");
+		SendClientMessageEx(playerid, COLOR_WHITE, "1. Hay 3 encargados, una persona se legales, otra de ilegales y otra de familias.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "Comunicate con el administrador correcto para que revise tu postulación en el grupo de WhatsApp.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "2. Listado de facciones en /facciones, cada facción puede tener como máximo 2 líderes.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "Los lideres están obligados a permanecer como mínimo 7 días en la facción. (Excepciones)");
+		SendClientMessageEx(playerid, COLOR_WHITE, "3. Las facciones pueden ser limpiadas por el encargado cuando llegen a 3/3 ADV.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "Una vez superen el número de advertencias se saca a todo miembro de la facción.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "4. Despidos/Contrataciones se realizan con rol obligatorio, sea por abandono vuluntario o PK.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "En el grupo de WhatsApp se dispone de toda la información acerca de las facciones. WEB: "WHATSAPP_LINK".");
+		SendClientMessageEx(playerid, COLOR_WHITE, "[NEW] Podrán hacerse cambios de liderazgo de manera IC sin necesidad de ser limpiada.");
+	}
+	return 1;
+}
+CMD:infoad(playerid, params[])
+{
+    #pragma unused params
+	if(IsPlayerConnected(playerid))
+	{
+		SendClientMessageEx(playerid, COLOR_RED, "[IMPORTANTE] Requísitos al enviar un anuncio por /ad(s). [Leer con atención]");
+		SendClientMessageEx(playerid, COLOR_WHITE, "1. No se permiten expresiones OOC, tipo: faccion, admin y similares.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "2. Todo término de rol está prohibido, sea MG, PG u otros. Disponen de /servicios.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "3. Prohibido anuncios que inciten al PG, publicidad de mafias o servicios ilegales.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "4. El Tag -EXTRA- es exclusivo para los miembros de LSTV (Online), con su CMD propio.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "5. Los precios no pueden seguir el formaro 10K, 5KK. En su lugar usar 5 mil dólares por ejemplo.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "6. Queda totalmente prohibido la búsqueda de personas, para ello existe FBI, es su rol.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "7. Usar este canal para insultar llevará un jail directo por IOOC vía /ad.");
+		SendClientMessageEx(playerid, COLOR_WHITE, "8. Cualquier información que no sea IC no será válido como AD, para dudas usen /duda [Texto].");
+		SendClientMessageEx(playerid, COLOR_WHITE, " ");
+
+
+zcmd(darlider, playerid, params[])
+	{
+	    if(papilla[playerid] == 0) return SendClientMessageEx(playerid, COLOR_GRAD2, "{FFFF00}[ERROR]:{FFFFFF} No estás en servicio administrativo {00F70C}/adminduty o /adminoffduty{FFFFFF} para usar este comando.");
+        if(Info[playerid][pFactionModerator] == 1)
+		{
+		    if(!sscanf(params, "dd", params[0], params[1]))
+		    {
+                new ftext[30];
+		        if(params[1] < 0 || params[1] > 20) 				return SendClientMessageEx(playerid, COLOR_WHITE, "ID facción incorrecto.");
+		        if(!IsPlayerConnected(params[0]))                   return SendClientMessageEx(playerid, COLOR_WHITE, "Jugado desconectado.");
+		        switch(params[1])
+		        {
+		            case 0: 	{Info[params[0]][pRank] = 0; ftext = "Ninguna"; }
+		            case 1: 	{Info[params[0]][pRank] = 6; ftext = "Los Santos Dep Policial"; }
+		            case 2: 	{Info[params[0]][pRank] = 6; ftext = "Federal Bureau Investigation"; }
+		            case 3: 	{Info[params[0]][pRank] = 6; ftext = "San Andreas Ejercito Militar"; }
+		            case 4: 	{Info[params[0]][pRank] = 6; ftext = "S.E.C - Médicos y Bomberos"; }
+		            case 5:     {Info[params[0]][pRank] = 6; ftext = "Los Santos Televisión"; }
+		            case 6:     {Info[params[0]][pRank] = 6; ftext = "Crazy Motors"; }
+		            case 7:     {Info[params[0]][pRank] = 6; ftext = "Gobierno"; }
+                    case 8:     {Info[params[0]][pRank] = 6; ftext = "Hitman"; }
+                    case 9:     {Info[params[0]][pRank] = 6; ftext = "Sistema Judicial"; }
+                    case 10:    {Info[params[0]][pRank] = 6; ftext = "Groove Street";}
+                    case 11:    {Info[params[0]][pRank] = 6; ftext = "Ballas the Kings";}
+                    case 12:    {Info[params[0]][pRank] = 6; ftext = "Latin Kings";}
+                    case 13:    {Info[params[0]][pRank] = 6; ftext = "Sureños 13";}
+                    case 14:    {Info[params[0]][pRank] = 6; ftext = "Mafia Rusa";}
+                    case 15:    {Info[params[0]][pRank] = 6; ftext = "La Cosa Nostra";}
+                    case 16:    {Info[params[0]][pRank] = 6; ftext = "Mafia Yakuza"; }
+                    case 17:    {Info[params[0]][pRank] = 6; ftext = "Cartel del Golfo"; }
+                    case 18:    {Info[params[0]][pRank] = 6; ftext = "Mafia Donakov"; }
+                    case 19:     {Info[params[0]][pRank] = 6; ftext = "FACC 19"; }
+                    case 20:     {Info[params[0]][pRank] = 6; ftext = "FACC 20";}
+zcmd(darmiembro, playerid, params[])
+	{
+	    if(papilla[playerid] == 0) return SendClientMessageEx(playerid, COLOR_GRAD2, "{FFFF00}[ERROR]:{FFFFFF} No estás en servicio administrativo {00F70C}/adminduty o /adminoffduty{FFFFFF} para usar este comando.");
+        if(Info[playerid][pFactionModerator] == 1)
+		{
+		    new rango; // Rango dentro de la facción, entre el 1 y el 6.
+		    if(!sscanf(params, "dii", params[0], params[1], rango))
+		    {
+                new string[128];
+		        if(params[1] < 0 || params[1] > MAX_FACTION) 		return SendClientMessageEx(playerid, COLOR_WHITE, "ID facción incorrecto.");
+		        if(!IsPlayerConnected(params[0]))                   return SendClientMessageEx(playerid, COLOR_WHITE, "Jugado desconectado.");
+		        if(rango <= 0 || rango >= 6) 						return SendClientMessageEx(playerid, COLOR_WHITE, "Rango erróneo (1-5).");
+		        OnDuty[params[0]] = 0; // Desbug Onduty.
+
+CMD:ayudafichas(playerid, params[])
+	{
+    	SendClientMessageEx(playerid, COLOR_GREEN,"*** SOBRE FICHAS ***");
+    	SendClientMessageEx(playerid, COLOR_WHITE,"Fichas VIP pueden ser canjeadas por armas en el VIP Locker.");
+    	SendClientMessageEx(playerid, COLOR_WHITE,"Fichas VIP pueden ser ganadas en eventos o regalos.");
+    	SendClientMessageEx(playerid, COLOR_WHITE,"Las armas cuestan de 1 a 5 fichas cada una.");
+	    SendClientMessageEx(playerid, COLOR_WHITE,"Si tu deseas dar fichas VIP usa /darfichas");
+	    SendClientMessageEx(playerid, COLOR_WHITE,"Si tu deseas vender fichas VIP usa /venderfichasvip");
+	    return 1;
+
+zcmd(codigos, playerid, params[])
+    {
+        if(IsACop(playerid))
+        {
+            SendClientMessageEx(playerid,COLOR_BLUE,"[LSPD-FBI] Códigos de radio de uso IC. [Disponible más detallado en el grupo de WhatsApp (URL en /foro).]");
+			SendClientMessageEx(playerid,COLOR_WHITE,"10-0 Despejado. || 10-1 Persecución en ... || 10-2 Sospechoso en... || 10-3 Detenido. || 10-4 Recibido, OK. || 10-5 Retransmitir mensaje.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-6 Ocupado. || 10-7 Precaución en... || 10-8 Procesar al detenido. || 10-9 Llamada atendida. || 10-10 Unidad libre de asignación.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-11 Robo en progreso. || 10-14 Requisa,Revisión,Revisar. || 10-15 Disturbio por problema civil en... || 10-16 Reten.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-17 Situación controlada. || 10-20 Lugar donde se encuentra. || 10-21 Teléfono || 10-22 Moto/vehículo || 10-23 Esperar un momento.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-24 Ponerse en contacto || 10-25 Terminar tarea. || 10-26 Cancelar la última información. || 10-30 No está de acuerdo a las reglas.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-31 Coche mal aparcado en... || 10-33 Mi vida corre peligro. || 10-34 Solicitud de ayuda. || 10-35 Información Clasificada.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-36 Candado policial. || 10-37 Solicitud de grúa en... || 10-38 Solicitud de Paramédicos en ... || 10-39 Solicitud de Bomberos.");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-40 Situación actual... || 10-42 Accidente de tránsito en... || 10-44 Tengo un recado. || 10-48 Mal uso de la radio. || 10-53 Civil/Persona");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-54 Civil/es fuertemente armado/s. || 10-57 Irse del lugar.. || 10-68 Enviar información. || 10-73 Patrullando en... || 10-74 Negativo...");
+        	SendClientMessageEx(playerid,COLOR_WHITE,"10-76 Voy a/me dirijo a... || 10-80 Nos vemos en... || 10-81 Solicitud de extracción (Que alguien me recoja) en... || 10-86 Agente disponible");
+
+zcmd(f, playerid, params[])
+	{
+	    if(!IsPlayerConnected(playerid)) return SendClientMessageEx(playerid, COLOR_WHITE, "No estás conectado.");
+	    if(nofac == 1 && Info[playerid][pLeader] < 1) return SendClientMessageEx(playerid, COLOR_WHITE, "El Chat de faccion esta bloqueado");
+        if(!isnull(params))
+	    {
+            new string[128];
+			if (Info[playerid][pLeader] > 0 || Info[playerid][pMember] > 0 || Info[playerid][pFMember] < 255)
+			{
+			    new member = Info[playerid][pMember];
+			    new fam = Info[playerid][pFMember];
+			    if(member==1)//SAPD
+			    {
+			        if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Comandante %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Inspector %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Teniente %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Sargento %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Oficial %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Cadete %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Cadete %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+			    }
+				else if(member==2)//FBI
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Sub-Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Agente Especializado %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Agente Especial %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Agente Superior %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Agente %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+			    else if(member==3)//SAEM
+			    {
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Coronel %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mayor %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Capitan %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Sargento %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Soldado %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Cabo %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Cadete %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+			    }
+			    else if(member==4)//SAMD
+			    {
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Jefe de Departamento %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Supervisor %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Bombero %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Paramédico %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Médico %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Práctico %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+			    }
+				else if(member==5) //LSTV
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Presentador %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Enviado Especial %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Periodista %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Redactor %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Becario %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Becario %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==6)//Crazy Motors
+			    {
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Supervisor %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Ingeniero %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Mecánico %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Trucker %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Ayudante %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Ayudante %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==7) //Gobierno
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Presidente %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Vice-Presidente %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Ministro %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Alcalde %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Secretario %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Staff %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Ministro %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==8) //Hitman
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Vice-Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Agente Especial %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Sicario %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Asesino %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==9) //S Judicial
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director G. %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Asociado %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Juez %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Fiscal %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Secretario %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( abogado %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==10) //Groove
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Lider %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mano derecha %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Asesino %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Escolta %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+                 else if(member==11) //Ballas
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Lider %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mano derecha %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Asesino %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Escolta %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				 else if(member==12) //Latin Kings
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Lider %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mano derecha %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Asesino %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Escolta %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==13) //Sur 13
+				{
+				    if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Rey del Barrio %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Vato del Rey %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Real Vato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Vigilante %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Cholo %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Rata %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+			    else if(member==14) //Mafia Rusa
+				{
+				    if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Lider %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mano derecha %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Asesino %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Escolta %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+                else if(member==15) //LCN
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Don %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Sottocapo %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Consigliere %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Capo %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Soldato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Asociatto %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+    			else if(member==16) //Yakuza
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Oyabun %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Zamestitel %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Saiko Komon %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Senpai Kohai %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Wakashu %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Kyodai %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Kyodai %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==17) //CDG
+			    {
+			        if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Vice Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Extorsionador %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Tráficante %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Driver %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+                    else { format(string, sizeof(string), "** (( Aprendiz %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+			    }
+				else if(member==18) //Santana/Donakov.
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Don %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Mano Derecha %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Hombre De Confianza %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Hombre De Honor %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Novato %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==19) //Terroristas
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( General %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Soldado %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Piloto %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Terrorista %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Buscador %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Principiante %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( Novato %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+				else if(member==20) // Bomberos LS - Ahora CDG.
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** (( Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** (( Vice Director %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** (( Extorsionador %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** (( Tráficante %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** (( Driver %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** (( Aprendiz %s: %s ))  **", GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (( CDG %s: %s )) **", GetPlayerNameEx(playerid), params); }
+					SendFamilyMessage(Info[playerid][pMember], 0x7BDDA5AA, string);
+				}
+	            if(Info[playerid][pFMember] < 255)
+				{
+					if(Info[playerid][pRank] == 6) { format(string, sizeof(string), "{04FFFF}** %s %s: %s **", fINFO[fam][FamilyRank6], GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 5) { format(string, sizeof(string), "** %s %s: %s **", fINFO[fam][FamilyRank5], GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 4) { format(string, sizeof(string), "** %s %s: %s  **", fINFO[fam][FamilyRank4], GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 3) { format(string, sizeof(string), "** %s %s: %s  **", fINFO[fam][FamilyRank3], GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 2) { format(string, sizeof(string), "** %s %s: %s  **", fINFO[fam][FamilyRank2], GetPlayerNameEx(playerid), params); }
+					else if(Info[playerid][pRank] == 1) { format(string, sizeof(string), "** %s %s: %s  **", fINFO[fam][FamilyRank1], GetPlayerNameEx(playerid), params); }
+					else { format(string, sizeof(string), "** (0) %s %s: %s **", fINFO[fam][FamilyRank1], GetPlayerNameEx(playerid), params); }
+					SendNewFamilyMessage(Info[playerid][pFMember], TEAM_AZTECAS_COLOR, string);
+				}
+				return 1;
+			}
+			else SendClientMessageEx(playerid, COLOR_WHITE, "No estás en una facción.");
+		}
+		else SendClientMessageEx(playerid, COLOR_WHITE, "Utiliza: /f (texto)");
+		return 1;
+	}
+
+zcmd(ayudatrabajo,playerid, params[])
+    {
+			switch(Info[playerid][pJob])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}\n/precioviaje - /rutabus - /miruta", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta /robarcoche", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad /robarcoche", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps /robarcoche", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		        case 15: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Trenero", "{FFFFFF}/rutatren /trenduty", "Cerrar", "");
+		        case 16: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Piloto", "{FFFFFF}/rutaavion /pilotoduty", "Cerrar", "");
+		        default: SendClientMessageEx(playerid, COLOR_WHITE, "No tienes un trabajo!");
+		    }
+        	return 1;
+
+zcmd(ayudatrabajo2,playerid, params[])
+    {
+			switch(Info[playerid][pJob2])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}\n/precioviaje - /rutabus - /miruta", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta /robarcoche", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad /robarcoche", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps /robarcoche", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		        case 15: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Trenero", "{FFFFFF}/rutatren /trenduty", "Cerrar", "");
+		        case 16: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Piloto", "{FFFFFF}/rutaavion /pilotoduty", "Cerrar", "");
+		        default: SendClientMessageEx(playerid, COLOR_WHITE, "No tienes un trabajo!");
+
+case 1: viptype = "Bronce";
+case 2: viptype = "Silver";
+case 3: viptype = "Gold";
+case 4: viptype = "Platinum";
+
+
+CMD:tiempojail(playerid, params[]){
+    if(IsPlayerConnected(playerid)){
+    SendClientMessageEx(playerid, COLOR_BLUED," {23A9D6}||---------------------------------|| {FFFF00}INFINITY RolePlat - Tiempos Jail||---------------------------||");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| PG: {FFFFFF} 5 Minutos{23A9D6}||   RK: {FFFFFF} 5 Minutos{23A9D6}||        CK2: {FFFFFF}Ban cuenta");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| DM: {FFFFFF} 5 Minutos{23A9D6}||   ZZ: {FFFFFF} 3 Minutos{23A9D6}||		DB: {FFFFFF} 10 minutos");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| CK: {FFFFFF} 10 Minutos{23A9D6}||   BH: {FFFFFF} 5 Minutos{23A9D6}||        BD/BCP: {FFFFFF}20 Minutos");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| CJ: {FFFFFF} 3 Minutos{23A9D6}||   AA: {FFFFFF} Repor Foro{23A9D6}||      	No Rol: {FFFFFF}20 Minutos");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| IHQ:{FFFFFF} 5 Minutos{23A9D6}||   BPC: {FFFFFF} 10 Minutos{23A9D6}||       CHK: {FFFFFF}10 minutos");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| MG: {FFFFFF} 3 Minutos{23A9D6}||   HK: {FFFFFF} 10 Minutos{23A9D6}||        LA: {FFFFFF}20 Minutos");
+    SendClientMessageEx(playerid, COLOR_WHITE," {23A9D6}|| TK: {FFFFFF} 5 minutos{23A9D6}||   IDS: {FFFFFF} 20 Minutos{23A9D6}||       MA: {FFFFFF}5 Minutos");
+    SendClientMessageEx(playerid, COLOR_BLUED," {23A9D6}||--------||{FFFF00}Cuidado no hagas ninguna cosa de esto si no estaras jaileado!! {23A9D6}||---------------||");
+	}
+	return 1;
+
+
+***********************************AYUDA POR DIALOG*********************************
+		case MENUAYUDA:
+		{
+	 		if(response)
+			{
+			    switch(listitem)
+			    {
+			        case 0:
+					{
+						ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - General", "{FFFF00}[PJ]\n{FFFFFF}/cuenta /subirnivel /cambiarclave /tiendacash /tirar /mostrar /trabajoayuda /removergps /dnifalso\n{FFFF00}[CMD'S]\n{FFFFFF}/pagar /payday /id /cfumar /cropa /comprarlicencia /animaciones /ven /google\n/ap /cp /apgarage /cpgarage /togduda /buscartrabajo /tognews /togfam /togphone /darcheque\n/eject /fumarcrack /fumarhierba /llenar /moneda /dar /contrato  /duda /re", "Cerrar", "");
+					}
+                    case 1:
+		{
+		if(IsAPolice(playerid))
+		    {
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Comandos - SAPD", "/radio /r /d /m /su /esposar /desesposar /ta(off) /ap /radargun /limpiarcamion /vmaletero /ram /luces\n/quitar /multar /detener /bk /bkc /tlc /derechos /bar(2)(3) /qb /placa /embargar /tgunmaletero /(q)(p)spikes /placaex\n/limpiar /sospechosos /sapddiv /verllaves /registroveh /dejarmulta /sapd /arrestar /destruirplanta /deposito /cono /bengala", "Cerrar", "");
+
+		    }
+		    else if(Team_Groove(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Groove Street", "{FFFF00}Comandos disponibles para la faccion Groove Street:\n{FFFFFF}/equipo /robar /miembros /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			 else if(Team_Latin(playerid))
+			{
+   				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Latin Kings", "{FFFF00}Comandos disponibles para la faccion Latin Kings:\n{FFFFFF}/equipo /robar /miembros /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_Yakuza(playerid))
+			{
+				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Yakuza", "{FFFF00}Comandos disponibles para la faccion Yakuza:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /robarbanco (Solo-Líder)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_Santana(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Santana", "{FFFF00}Comandos disponibles para la faccion Santana:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /robarbanco (Solo-Líder)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_BomberosLS(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Bomberos LS", "{FFFF00}Comandos disponibles para la faccion Bomberos:\n{FFFFFF}/bduty /d /m /r(adio) /equipo /gob /qfuego /buscarfuego\n\n{FFFF00}Informacion:\n{FFFFFF}*Estar siempre duty y con el skin de facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_Alqaeda(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Alqaeda", "{FFFF00}Comandos disponibles para la faccion Alqaeda:\n{FFFFFF}/equipo /miembros /f /apgarage\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_Rusa(playerid))
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Rusa", "{FFFF00}Comandos disponibles para la faccion Rusos:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /robarbanco (Solo-Líder)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			else if(Team_Ballas(playerid))
+			{
+		       	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ballas the Kings", "{FFFF00}Comandos disponibles para la Ballas:\n{FFFFFF}/equipo /robar /miembros /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n{FFFFFF}*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			 else if(Team_Sureno(playerid))
+			{
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Sureños 13", "{FFFF00}Comandos disponibles para la faccion Sureños 13:\n{FFFFFF}/equipo /robar /miembros /f\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n{FFFFFF}*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+			 else if(Team_LCN(playerid))
+			{
+				ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Mafia Italiana LCN", "{FFFF00}Comandos disponibles para la faccion LCN:\n{FFFFFF}/equipo /robar /miembros /f /apgarage /robarbanco (Solo-Líder)\n\n{FFFF00}Informacion:\n{FFFFFF}*Tener skins que representen la facción.\n*Evitar incumplir los conceptos de rol\n*A la 3era advertencia tu facción será limpiada.", "Cerrar", "");
+			}
+		    else if(Team_SAMD(playerid))
+			{
+       			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}SAMD", "{FFFF00}Comandos disponibles para la faccion SAMD:\n{FFFFFF}/equipo /gob /sacarsangre /pcinfo /apgarage /samduty /placa (/r)adio (/d)epartaments\n/subirpt /dejarpt /curar /irpt", "Cerrar", "");
+			}
+			else if(Team_Mecanicos(playerid))
+			{
+          		ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Crazy Motors", "{FFFF00}Comandos disponibles para la faccion Crazy Motors:\n{FFFFFF}/miembros /menu /mduty /nitro /hyd \n/venderspray /remolcar /reparar /recargar /f\n/apgarage /equipo", "Cerrar", "");
+			}
+			else if(Hitman(playerid))
+			{
+			    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Agencia Hitman", "{FFFF00}Comandos disponibles para la faccion Hitman:\n{FFFFFF}/miembros /buscar /acontrato /amascara\n/darhit /hrangos /borrarhit /equipo /hits", "Cerrar", "");
+			}
+			else if(Team_SAEM(playerid))
+			{
+			    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}SAEM", "{FFFF00}Comandos disponibles para la faccion SAEM:\n{FFFFFF}/misil /saem (/r)adio /d /m (/ta)zer /tgunmaletero /placaex /saemdiv /su /derechos /deposito\n/revisar /bar /placa /qb /esposar /gob /limpiarcamion /vmaletero /(q)(p)spikes /detener /prision\nDiv Médicos: /dejarpt - /subirpt", "Cerrar", "");
+			}
+			else if(Team_LSTV(playerid))
+			{
+			    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}LSTV", "{FFFF00}Comandos disponibles para la faccion LSTV:\n{FFFFFF}/miembros /nr (Noticias) - /entrevista /f /apgarage\n /equipo /activarlinea /panum", "Cerrar", "");
+			}
+			else if(Gobierno(playerid))
+			{
+			  	ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Gobierno", "{FFFF00}Comandos disponibles para la faccion Gobierno:\n{FFFFFF}/miembros /equipo /gob /impuesto\n/dejarfondos /gobdiv /apgarage /d /(r)adio", "Cerrar", "");
+			}
+			else if(Team_Judicial(playerid))
+			{
+       			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Sistema Judicial", "{FFFF00}Comandos disponibles para la faccion Judicial:\n{FFFFFF}/miembros (/r)adio /d /orden /qorden\n/multajudicial /scarcel /sprision /buscados /juicio\n/librarcargos /recompensar /verjuicios /revertir /presentar /arrestojudicial", "Cerrar", "");
+			}
+			else if(Team_FBI(playerid))
+			{
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}FBI", "{FFFF00}Comandos disponibles para la faccion FBI:\n{FFFFFF}/miembros (/r)adio /d (/m)egaphone /su /encontrarveh\n/esposar /desesposar /ta(off) /vmaletero /fbi /arrestar /revisar /placa\n/deposito /quitar /multar /detener /derechos /encontrar /gob\n/limpiar /sospechosos /fbidiv /tgunmaletero /ram /placaex /luces", "Cerrar", "");
+			}
+			else if(Team_ALEPH(playerid))
+			{
+		        ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}CIA", "{FFFF00}Comandos disponibles para la faccion CIA:\n{FFFFFF}/d (/r)adio /ciadiv /su /sospechosos /m\n/quitar /gob /derechos /deposito /verllaves /vcoche\n/dejarmulta /limpiarcamion /ta(off) /vmaletero /bar(2)(3) /bengala\n/cono /qb /(q)(p)spikes /ram /esposar /desesposar\n/arrestar /cia /placaex /arrestar /limpiar", "Cerrar", "");
+			}
+		}
+		case 2:
+		{
+ 			ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chat", "{FFFF00}Comandos IC:\n{FFFFFF}(/g)ritar (/s)usurar /me /c (/r)adio\n\n{FFFF00}Comandos OOC:\n{FFFFFF}/b (/w)hisper (/f)accion", "Cerrar", "");
+		}
+		case 3:
+		{
+            ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Lider", "{FFFF00}Facciones Legales:\n{FFFFFF}/contratar /despedir /darrango /gob\n\n{FFFF00}Facciones Ilegales\n{FFFFFF}/contratar /despedir /darrango /robarbanco", "Cerrar", "");
+		}
+		case 4:
+		{
+		    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Telefono", "{FFFFFF}/llamar /sms /altavoz", "Cerrar", "");
+		}
+		case 5:
+		{
+		    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Casa", "{FFFFFF}/comprarcasa /rentar /desrentar /timbre /vendercasa(2)\n /ponerrenta /preciorenta /sarma /garma /cdepositar\n/cretirar /cmejorar /cajaestado /cseguro /vendermicasa(2)", "Cerrar", "");
+		}
+		case 6:
+		{
+		   ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Coche", "{FFFFFF}/estacionar /v (nombre) /gps /qmod /seguro\n/velocimetro /gunlocker /vendermicoche /borrarcoche /llenar\n /smaletero /gmaletero /darllave /quitarllave", "Cerrar", "");
+		}
+		case 7:
+		{
+		    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Banco", "{FFFFFF}/depositar /sacar /transferir\n /balance /atm /tarjeta", "Cerrar", "");
+		}
+		case 8:
+		{
+		    if(Info[playerid][pVIP] == 0) return SendClientMessageEx(playerid, COLOR_WHITE, "{FFFF00}[ERROR]:{FFFFFF} No eres {FFFF00}VIP{FFFFFF}!");
+            if(Info[playerid][pVIP] >= 1)
+			{
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Premium", "{FFFFFF}/invitaramigo /viplocker /venderfichasvip /togvip\n/automensaje /ayudafichas /togphone /vip\n/spawncasa /skinpremium /repararpremium", "Cerrar", "");
+			}
+		}
+		case 9:
+		{
+		    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Matrimonio", "{FFFFFF}/testigo /proponer /divorcio", "Cerrar", "");
+		}
+		case 10:
+		{
+      		ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - armas", "{FFFFFF}/tarma /rarma /tirararma\n /aceptar (arma) /cancelar (arma)", "Cerrar", "");
+		}
+		case 11:
+		{
+		    ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Negocio", "{FFFFFF}/comprarnegocio /vendernegocio /sganancias /binfo\n/extorcion /qextorcion /recaudar", "Cerrar", "");
+		}
+		case 12:
+		{
+		    if (Info[playerid][pFMember] != 255)
+		    {
+                ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Familias", "{FFFFFF}/festado /familias /fdepositar /fretirar /cfdepositar\n/fropa /fsarma /fgarma\n\n{FFFF00}Comandos Lider:\n{FFFFFF}/ajustar /famrango /anombrerango /fseguro /festacionar\n/famllaves /fcomprarseguro(En 24/7)", "Cerrar", "");
+		    }
+		    else SendClientMessageEx(playerid, COLOR_WHITE, "No eres parte de una familia o banda.");
+		}
+		case 13:
+		{
+		    switch(Info[playerid][pJob])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}/precioviaje", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		        default: SendClientMessageEx(playerid, COLOR_WHITE, "No tienes un trabajo!");
+		    }
+		    switch(Info[playerid][pJob2])
+		    {
+		        case 1:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bartender", "{FFFFFF}/venderbebida", "Cerrar", "");
+		        case 2:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de moviles", "{FFFFFF}/vendertelefono", "Cerrar", "");
+		        case 3:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Chofer de viajes", "{FFFFFF}/precioviaje", "Cerrar", "");
+		        case 4:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Pizzero ", "{FFFFFF}/tomarpizza (En lugar de las pizzabikes)", "Cerrar", "");
+		        case 5:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Vendedor de droga", "{FFFFFF}/vendercrack /venderhierba /comprarcrack /comprarhierba\n/plantar /checkplanta /sacarplanta", "Cerrar", "");
+		        case 6:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Camionero", "{FFFFFF}/cargarcamion /robarcamion /habilidad", "Cerrar", "");
+		        case 7:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de armas", "{FFFFFF}/creararma /tarma /rarma /materiales /vendermateriales\n/habilidad", "Cerrar", "");
+		        case 8:  ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Taxista", "{FFFFFF}/tarifa /aceptar taxi /cancelar taxi /taxiduty", "Cerrar", "");
+		        case 9: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Granjero", "{FFFFFF}/cosechar /dcosechar /vendercosecha", "Cerrar", "");
+		        case 10: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Traficante de droga", "{FFFFFF}/paquete /habilidad /tirar paquetes(d)\n/removergps", "Cerrar", "");
+		        case 11: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Bodyguard", "{FFFFFF}/venderchaleco", "Cerrar", "");
+		        case 12: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Artesano", "{FFFFFF}/crear /materiales /vendermateriales", "Cerrar", "");
+		        case 13: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Jardinero", "{FFFFFF}/recogercesped", "Cerrar", "");
+		        case 14: ShowPlayerDialog(playerid, 1000, DIALOG_STYLE_MSGBOX, "{00F70C}Ayuda - Heladero", "{FFFFFF}/hduty /venderhelado", "Cerrar", "");
+		    }
+		}
+}
+}
+}*/
+
+case JOBHELPMENU:
+		{
+	 		if(response)
+			{
+			    if(GetPVarInt(playerid, "Packages") != 0 || TaxiAccepted[playerid] != 999 || EMSAccepted[playerid] != 999 || MedicAccepted[playerid] != 999 || MechanicCallTime[playerid] >= 1) return SendClientMessageEx(playerid, COLOR_WHITE, "Asegúrate de no estar en otra función usando checkpoints.");
+			    switch(listitem)
+			    {
+					case 1: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Bartender", "Información:\nEste trabajo puedes usarlo vendiendo bebidas a otros usuarios.\nEste trabajo es legal y el más buscado ultimamente.\n\nComandos:\n/venderbebida\nLocalización: En Los Bares De Las Ciudades Los Santos y San Fierro, en un icono.", "OK", "");
+					case 2: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Vendedor de Moviles", "Información:\nSe basa en vender celulares a otros usuarios.\nEste trabajo es legal.\n\nComandos:\n/vendertelefono\nLocalización: Ciudad Los Santos en un icono.", "OK", "");
+					case 3: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Chofer de Viajes", "Información:\nEste trabajo se basa en hacer viajes desde Los Santos a San Fierro\nEste trabajo es legal.\n\nComandos:\n/choferduty\n/carnet\n/precioviaje - /rutabus\nLocalización: Ciudades Los Santos y San Fierro, en un icono (Amarillo i).", "OK", "");
+					case 4: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Pizzero", "Información:\nEste trabajo puedes usarlo repartiendo pizzas por Los Santos.\nEste trabajo es legal y muy rentable.\n\nComandos:\n/tomarpizzals\nLocalización: Ciudades Los Santos y San Fierro, en un icono (Amarillo i).", "OK", "");
+					case 5: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Vendedor de Drogas","Información:\nEste trabajo es ilegal debes comprar drogas en las casas para después venderlas al precio que desees.\nComandos:\n/vendercrack\n/venderhierba\n/comprarcrack\n/comprarhierba\n/plantar - /checkplanta - /sacarplanta\n/habilidad\nLocalización: Desconocida, debes de buscar mas información.", "OK", "");
+					case 6: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Camionero", "Información:\nEste trabajo se basa en usar camiones y entregar paquetes a distintos puntos de SA.\n\nTIP: Tienes que cojer el camión e ir al punto de carga.\n*Cada nivel que subas te irán pagando más.\n\nEste trabajo es legal y muy cansado pero muy rentable.\n\nComandos:\n/cargarcamion\n/robarcamion\n/habilidad\nLocalización: Ciudades Los Santos y San Fierro, en un icono (Amarillo i).", "OK", "");
+                    case 7: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Vendedor de Armas","Información:\nEste trabajo es ilegal debes conseguir clientes para venderles armas.\nEs necesario obtener materiales para fabricarlas, en algún punto de matariales usa /materiales.\nComandos:\n/creararma\n/materiales\n/habilidad\nLocalización: Desconocida, debes buscar mas información.", "OK", "");
+                    case 8: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Taxista", "Información:\nEste trabajo es legal debes esperar llamadas de personas que te necesiten, para llevarlas a un destino.\nComandos:\n/tarifa\nLocalización: Ciudades Los Santos y San Fierro - En un icono. (Amarillo i)\n\n\nTIP: Recuerda que puedes sacar tu licencia de taxista y ya no será necesario trabajar en taxis, puedes hacarlo con un auto particular.","OK", "");
+					case 9: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Granjero", "Información:\nEste trabajo es legal debes cosechar en la granja para después vender los productos a los 24/7.\nComandos:\n/cosechar\n/dcosechar\n/vendercosecha\nLocalización: Ciudades Los Santos y San Fierro - En un icono. (Amarillo i)","OK", "");
+					case 10: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Traficante de drogas", "Información:\nEste trabajo es ilegal debes de transportar las drogas a la ciudad Los Santos.\nComandos:\n/paquete\nLocalización: Desconocida, debes de buscar mas información","OK", "");
+					case 11: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Vendedor de chalecos", "Información:\nEste trabajo es legal debes de ofrecer chalecos antibalas.\nComandos:\n/venderchaleco\nLocalización: Ciudad Los Santos en un icono.(Amarillo i)","OK", "");
+					case 12: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Artesano", "Información:\nEste trabajo es legal podras crear varias herramientas con este trabajo.\nComandos:\n/crear\nLocalización: Pueblo Dillimore en las afueras de Los Santos(Amarillo i)","OK", "");
+					case 13: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Jardinero", "Información:\nEste trabajo es legal debes de cuidar las zonas verdes de la ciudad.\nComandos:\n/recogercesped\nLocalización: Ciudad Los Santos en un icono.(Amarillo i)","OK", "");
+					case 14: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Heladero", "Información:\nEste trabajo es legal debes de vender helados por toda la ciudad.\nComandos:\n/hduty /venderhelado\nLocalización: Ciudad Los Santos en un icono.(Amarillo i)","OK", "");
+					case 15: SafeDialogEx(playerid, INVALID_DIALOG, DIALOG_STYLE_MSGBOX, "{00F70C}Leñador", "Información:\nEste trabajo es legal debes de talar arboles en las afueras de la ciudad.\nLocalización: En las afueras de la ciudad de Los Santos(Amarillo i)","OK", "");
+
+
+18847	if(dialogid == DIALOG_DUDAS)
+	{
+        if(response)
+	    {
+	            if(listitem == 0)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Hay facciones libres? - ¿Cuáles son?");
+					SendClientMessage(playerid, -1, "{819FF7} Si usted desea conocer las facciones disponibles del servidor, lo tendrá que revisar en el grupo de WhatsApp.");
+					SendClientMessage(playerid, -1, "{819FF7} Encontrará un post de lideres de facción que estará en constante actualización. /facciones - /infofacciones.");
+					SendClientMessage(playerid, -1, "{819FF7} El E.F. es el encargado de facciones, puede comunicarse con él a través del grupo de WhatsApp. (/foro)");
+					SendClientMessage(playerid, -1, "{819FF7} No se realizan pruebas In Game para liderar una facción, se realiza mediante postulación via grupo de WhatsApp.");
+				}
+				if(listitem == 1)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Buscan administradores? - ¿Cómo postulo?");
+					SendClientMessage(playerid, -1, "{819FF7} La administracin de INFINITY rechazará toda solicitud de usuarios que desean ser administradores sin postulación.");
+					SendClientMessage(playerid, -1, "{819FF7} Es obligatorio solicitar un puesto administrativo via grupo de WhatsApp siguiendo el formato correcto a realizar.");
+					SendClientMessage(playerid, -1, "{819FF7} Las postulaciones serán revisadas cada domingo de la semana por los administradores propietarios del servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} Exigir una respuesta a sus solicitudes inmediatamente harán que sean rechazadas su postulaciónes, sean pacientes.");
+				}
+				if(listitem == 2)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Dónde consigo un teléfono? - ¿Qué hay en esa tienda?");
+					SendClientMessage(playerid, -1, "{819FF7} Los teléfonos podrán ser comprados en las tiendas de electrónica del servidor (Aparece en el mapa)");
+					SendClientMessage(playerid, -1, "{819FF7} Se pueden comprar Ipods, Boombox y otros elementos tecnologícos. Entre otras cosas.");
+					SendClientMessage(playerid, -1, "{819FF7} Si quiere realizar el robo a la tienda (/robarshop), tendrá que rolear el entorno y el robo en si.");
+					SendClientMessage(playerid, -1, "{819FF7} No se permite el uso de este sistema como medio de obtener dinero sin rol. El staff será avisado.");
+				}
+				if(listitem == 3)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Por qué tengo restricción de armas? -¿Cómo se elimina?");
+					SendClientMessage(playerid, -1, "{819FF7} La restricción de armas se obtiene desde el primer minuto que entras al servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} No te permite portar armas durante las 2 primeras horas de juego. (Puede verse en /cuenta).");
+					SendClientMessage(playerid, -1, "{819FF7} Esto es una medida para evitar el uso de armas como medio para hacer DM. Serán vigilados.");
+					SendClientMessage(playerid, -1, "{819FF7} Las restricciones sólo serán retiradas si el usuario demustra su nivel de rol y que hará un buen uso de las armas.");
+				}
+				if(listitem == 4)
+				{
+				   	SendClientMessage(playerid, -1, "{2E2EFE} ¿Por qué no aparece el checkpoint en el mapa?");
+					SendClientMessage(playerid, -1, "{819FF7} En ocasiones por temas de lag no aparece el siguiente checkpint. Existe un sistema Anti/Abuso.");
+					SendClientMessage(playerid, -1, "{819FF7} Si llegas a un lugar en menos del tiempo establecido, será tomado como uso de cheats y se activará el sistema.");
+					SendClientMessage(playerid, -1, "{819FF7} Puedes eliminar el checkpint usando el comando /removegps. Si encuntra problemas con el sistema, reporte via grupo de WhatsApp.");
+					SendClientMessage(playerid, -1, "{819FF7} No puede tener activado 2 checkpoints al mismo tiempo, tendrá que iniciar de nuevo el comando usado.");
+				}
+				if(listitem == 5)
+				{
+				   	SendClientMessage(playerid, -1, "{2E2EFE} ¿Hay mecánicos On? - ¿Cómo los puedo encontrar?");
+					SendClientMessage(playerid, -1, "{819FF7} Podrá encontrar el taller mecánico usando canales IC, actualmente es una única HQ.");
+					SendClientMessage(playerid, -1, "{819FF7} Dispone del comando /servicios para solicitar un mecánico. Tendrá que ser paciente en su búsqueda.");
+					SendClientMessage(playerid, -1, "{819FF7} Si no hay mecánicos ON, los administradores no repararán sus vehículo. Tendrá que esperar a que uno se conecte.");
+					SendClientMessage(playerid, -1, "{819FF7} Está prohibo solicitar a un mecánico por canales OOC que no haga rol de tunning, serán enviados a jail por No-Rol.");
+				}
+				if(listitem == 6)
+				{
+		   			SendClientMessage(playerid, -1, "{2E2EFE} ¿Cuántos Jobs hay? - ¿Cuál da más dinero?");
+					SendClientMessage(playerid, -1, "{819FF7} Dispone del comando /buscartrabajo para ver el listado de Jobs disponibles. CMD de ayuda en /ayudatrabajo(2).");
+					SendClientMessage(playerid, -1, "{819FF7} Ciertos Jobs precisan de tener un cierto número de horas jugadas, al igual que rolear sus comandos.");
+					SendClientMessage(playerid, -1, "{819FF7} Los jobs han sido creados para que se gane por igual. Recomendable estar en un Job que se adecue a tú rol.");
+					SendClientMessage(playerid, -1, "{819FF7} Se recomienda el Job de Camionero por el momento. Estos empleos estarán en constante actualización.");
+				}
+				if(listitem == 7)
+				{
+ 					SendClientMessage(playerid, -1, "{2E2EFE} ¿Cómo hago un anuncio? - ¿Normas del sistema?");
+					SendClientMessage(playerid, -1, "{819FF7} El comando de creación de anuncios es /ad, su coste está fijado por LSTV. Normas del sistema en /infoad.");
+					SendClientMessage(playerid, -1, "{819FF7} Sólo se puede enviar un anuncio por minuto, siempre solicitando información IC, sin uso OOC.");
+					SendClientMessage(playerid, -1, "{819FF7} Es obligatorio el uso del TAG en los anuncios, [Empleo LS], [Ventas LS] y estar bien redactados.");
+					SendClientMessage(playerid, -1, "{819FF7} Importante, el uso de términos -Mafia, drogas, facción -, entre otros no se permiten, será jail por MA. (Mal AD)");
+				}
+				if(listitem == 8)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Estoy bugeado, qué hago? - ¿Lo reporto?");
+					SendClientMessage(playerid, -1, "{819FF7} El comando básico en temas de bug es el /desbug, te cambia al interior 0 y Mundo Virtual 0.");
+					SendClientMessage(playerid, -1, "{819FF7} Usar este comando en interiores hará que te caigas y pierdas vida, hagan buen uso del comando.");
+					SendClientMessage(playerid, -1, "{819FF7} Si el bug es por animaciones o congelación, usen del /desbugmanos para volver a su estado anterior.");
+					SendClientMessage(playerid, -1, "{819FF7} Si creen que el bug afectará a más personas, lo pueden reportar (/reportarbug) o mediante un post via grupo de WhatsApp.");
+				}
+				if(listitem == 9)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Cómo dejo una facción? - ¿Se rolea?");
+					SendClientMessage(playerid, -1, "{819FF7} Toda salida de una facción se tiene que rolear con el líder de esta, por motivos IC si es posible.");
+					SendClientMessage(playerid, -1, "{819FF7} La administración le podrá sacar de su facción si esta carece de líder, es inactiva o será cerrada.");
+					SendClientMessage(playerid, -1, "{819FF7} Si es sacado de la facción por motivos OOC del líder, podrán ser consensuados con el Encargado de Facciones.");
+					SendClientMessage(playerid, -1, "{819FF7} Los lideres están obligados a permanecer en una facción al menos 7 días, su salida previa será jail por PG.");
+				}
+		}
+		else
+		{
+  			new dudasfq2[] = "¿Hay VIP? - ¿Cómo se obtiene?\n¿Cuál es el grupo de WhatsApp? - ¿Cuándo aceptan mi cuenta?\n¿Se puden crear familias? - ¿Qué requísitos son?\n¿Por qué tengo estrellas de búsqueda? -¿Se quitan?\n¿Hay casas nivel 2? - ¿Sus interiores pueden ser editados?\n¿Dónde veden coches? - ¿Cuántos concesionarios hay?\n¿Se puede usar HKB? - ¿Hay macros?\n¿En que ciudad se rolea? - ¿Y ya?\n¿Pueden traer mi coche? - ¿Me llevan a los Santos?\n¿Hay stats de inicio? - ¿Algo más?";
+	 		SafeDialogEx(playerid, DIALOG_DUDAS2, DIALOG_STYLE_LIST, "{FFFFFF}Soporte:{088A4B} Respuesta a preguntas frecuentes 2/2",dudasfq2 , "Aceptar", "Salir");
+		}
+	}
+// Dialog_Dudas2
+	if(dialogid == DIALOG_DUDAS2)
+	{
+        if(response)
+	    {
+	            if(listitem == 0)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Hay VIP? - ¿Cómo se obtiene?");
+					SendClientMessage(playerid, -1, "{819FF7} El sistema VIP funciona según el nivel de rol del usuario y sus horas dedicadas en el servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} Según su rol, podrá tener acceso a cierto nivel de VIP de manera limitada, no se paga por ello.");
+					SendClientMessage(playerid, -1, "{819FF7} Se tienen que intentar rolear los comandos PREMIUM, sea reparar el coche o pintarlo.");
+					SendClientMessage(playerid, -1, "{819FF7} Pueden obtener puntos de rol para tener acceso a más nivel VIP o solicitarlo via grupo de WhatsApp con SS de los roles.");
+				}
+				if(listitem == 1)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Cuál es el grupo de WhatsApp? - ¿Cuándo aceptan mi cuenta?");
+					SendClientMessage(playerid, -1, "{819FF7} El grupo de WhatsApp del servidor lo pueden contrar usando el comando /foro. Es importante estar registrado.");
+					SendClientMessage(playerid, -1, "{819FF7} En el registro tendrán que usar como cuenta el formato Nombre_Apellido, al igual que dentro del servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} Su solicitud de cuenta podrá ser rechazada si no cumple el requísito citado anteriormente sin aviso alguno.");
+					SendClientMessage(playerid, -1, "{819FF7} Hay encargados del grupo de WhatsApp (Webmasters) que se ocupan de activar cuentas, sea paciente y su cuenta será activada.");
+				}
+				if(listitem == 2)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Se puden crear familias? - ¿Qué requísitos son?");
+					SendClientMessage(playerid, -1, "{819FF7} Pueden crear familias dentro del servidor, siendo roleadas In Game su creación, no recibirán dinero en el Payday.");
+					SendClientMessage(playerid, -1, "{819FF7} Las familias tendran que buscar mediante rol su fuente de ingreso, además de tener un rol claro.");
+					SendClientMessage(playerid, -1, "{819FF7} Si desean crear una familia, tienen que realizar su solicitud via grupo de WhatsApp poniendo los datos necesarios.");
+					SendClientMessage(playerid, -1, "{819FF7} Los requísitos serán encontrados en el grupo de WhatsApp, es importante tener al menos 3 miembros activos para ser creadas.");
+				}
+				if(listitem == 3)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Por qué tengo estrellas de búsqueda? -¿Se quitan?");
+					SendClientMessage(playerid, -1, "{819FF7} Las estrellas de búsqueda aperecen tras realizar un robo y no tener la máscara activada.");
+					SendClientMessage(playerid, -1, "{819FF7} Si creen que un policía le puso estrellas sin pruebas alguno, lo tendrá que demostrar en el grupo de WhatsApp.");
+					SendClientMessage(playerid, -1, "{819FF7} El rol de entorno es obligatorio en los robos, habrán camaras que permiten el reconocimiento de la persona.");
+					SendClientMessage(playerid, -1, "{819FF7} Se quitará las estrellas mediante rol, en caso de haber MG en el rol, los administradores decidirán que hacer.");
+				}
+				if(listitem == 4)
+				{
+				   	SendClientMessage(playerid, -1, "{2E2EFE} ¿Hay casas nivel 2? - ¿Sus interiores pueden ser editados?");
+					SendClientMessage(playerid, -1, "{819FF7} El nivel mínimo al ingresar en el servidor es 2, sólo los apartamentos de alquiler serán a este nivel.");
+					SendClientMessage(playerid, -1, "{819FF7} El resto de casas son nivel 3, para evitar que sean compradas nada más acceder al servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} Importante destacar que esto permite que no hayan propietarios ausentes con sus casas, serán limpiadas cada 30 días.");
+					SendClientMessage(playerid, -1, "{819FF7} Si dispones de una casa la cual su interior no se adapta a su exterior, tiene el derecho de reclamar su interior adecuado.");
+				}
+				if(listitem == 5)
+				{
+				   	SendClientMessage(playerid, -1, "{2E2EFE} ¿Dónde veden coches? - ¿Cuántos concesionarios hay?");
+					SendClientMessage(playerid, -1, "{819FF7} Disponen de una variedad básica de coches alrededor de los concesionarios de los Santos.");
+					SendClientMessage(playerid, -1, "{819FF7} Podrán encontrar 5 diferentes tipos de variedad, en lo que se refiere a concesionarios. Organizados por tipo.");
+					SendClientMessage(playerid, -1, "{819FF7} Concesionarios de Gama Alta, Básicos, Modernos, Helicópteros y Barcos. Si no encuentra su coche, podrá rolearlo.");
+					SendClientMessage(playerid, -1, "{819FF7} Una vez rolee la compra de su coche, la administración le dará el coche deseado. (Sólo vehículos permitidos)");
+				}
+				if(listitem == 6)
+				{
+		   			SendClientMessage(playerid, -1, "{2E2EFE} ¿Se puede usar HKB? - ¿Hay macros?");
+					SendClientMessage(playerid, -1, "{819FF7} Se permite el uso del programa Hot Key Board, usado para la creación de macros dentro del servidor.");
+					SendClientMessage(playerid, -1, "{819FF7} El máximo de lineas permitida a cada usuario es de 3 linéas, los macros no pueden tener el CMD /intentar dentro.");
+					SendClientMessage(playerid, -1, "{819FF7} El uso de macros están obligados en roles de arma, choque, o reviones. Entre otros roles básicos.");
+					SendClientMessage(playerid, -1, "{819FF7} En caso de no disponer del HKB, lo pueden descargar en el grupo de WhatsApp. Usen el comando /macros para ver los disponibles.");
+				}
+				if(listitem == 7)
+				{
+ 					SendClientMessage(playerid, -1, "{2E2EFE} ¿En que ciudad se rolea? - ¿Y ya?");
+					SendClientMessage(playerid, -1, "{819FF7} El rol del servidor está centrado en Los Santos y sus alrededores,");
+					SendClientMessage(playerid, -1, "{819FF7} Fuera de la ciudad podrán encontrar casas en venta y mapeos especiales.");
+					SendClientMessage(playerid, -1, "{819FF7} Se permite el acceso IC al resto de San Andreas, ciertos jobs te obligan a ir al resto de las ciudades.");
+					SendClientMessage(playerid, -1, "{819FF7} Si estás buscando mapeados especiales, podrás encontrarlo en las zonas centro.");
+				}
+				if(listitem == 8)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Pueden traer mi coche? - ¿Me llevan a los Santos?");
+					SendClientMessage(playerid, -1, "{819FF7} Por regla general un administrador no podrá traerte el coche ni darte teleport a los Santos, interfiriendo IC en el rol.");
+					SendClientMessage(playerid, -1, "{819FF7} Sus coches podrán ser devueltos en caso de Respawn de emergencia o bug al estacionarlos o respawnear.");
+					SendClientMessage(playerid, -1, "{819FF7} Serán llevados a los Santos en el punto que queden bugeados dentro de un interior o por motivos OOC.");
+					SendClientMessage(playerid, -1, "{819FF7} Si desean desplazarse por la ciudad, llamen a un taxi (/servicios) o alquilen un vehículo.");
+				}
+				if(listitem == 9)
+				{
+					SendClientMessage(playerid, -1, "{2E2EFE} ¿Hay stats de inicio? - ¿Algo más?");
+					SendClientMessage(playerid, -1, "{819FF7} Los stats son actualizados según el número de usuarios y la económia del servidor. CMD para la info, /recibirstats.");
+					SendClientMessage(playerid, -1, "{819FF7} Si han perdido parte de sus stats, recuerden tener SS que lo demuestren, la pérdida de stats se solicita via grupo de WhatsApp.");
+					SendClientMessage(playerid, -1, "{819FF7} El servidor comenzó sus inicios en Julio del 2025 y se compro un Host para mayor calidad.");
+					SendClientMessage(playerid, -1, "{819FF7} Normativa general del servidor disponible en el /foro. Más comandos en /pesca, /idiomas, /ayudajob(2), entre otros.");
+					SendClientMessage(playerid, -1, "{819FF7} En caso de activarse el TS3, disponrán de la IP en /ts3. Créditos del servidor en /creditos. Agradecimiento a A-RP.");
+				}
+		}
+		else
+		{
+  		SendClientMessage(playerid, -1, "Puedes usar el comando /soporte siempre que necesites ayuda, también usa el canal /duda en caso de ser otro tipo de problema.");
+		}
+	}
+
+
+	new jtext[21], jtext2[21];
+		switch(Info[targetid][pJob]){
+			case 0: jtext = "Ninguno";
+			case 1: jtext = "Bartender";
+            case 2: jtext = "Vendedor de Móviles";
+            case 3: jtext = "Chofer de Viajes";
+            case 4: jtext = "Pizzero";
+            case 5: jtext = "Vendedor de Drogas";
+            case 6: jtext = "Camionero";
+            case 7: jtext = "Vendedor de Armas";
+            case 8: jtext = "Taxista";
+            case 9: jtext = "Granjero";
+            case 10: jtext = "Traficante de Drogas";
+            case 11: jtext = "Vendedor de Chalecos";
+            case 12: jtext = "Artesano";
+            case 13: jtext = "Jardinero";
+            case 14: jtext = "Heladero";
+            case 15: jtext = "Conductor de Tren";
+            case 16: jtext = "Piloto NS";
+
+
+stock GetPlayerFactionInfo(targetid, rank[64], division[64], employer[64])
+{
+	switch (Info[targetid][pMember])
+	{
+	    case 1:
+		{
+            employer = "LSPD";
+			switch(Info[targetid][pRank])
+			{
+			    case 1: rank = "Cadete";
+			    case 2: rank = "Oficial";
+			    case 3: rank = "Sargento";
+			    case 4: rank = "Teniente";
+			    case 5: rank = "Inspector";
+			    case 6: rank = "Comandante";
+			    default: rank = "Cadete";
+			}
+			switch(Info[targetid][pDivision])
+			{
+			    case 1: division = "General";
+			    case 2: division = "DIVCRI";
+			    case 3: division = "DIVOES";
+			    case 4: division = "DIVANDRO";
+			    case 5: division = "SWAT";
+			    case 6: division = "DGT";
+			    default: division = "Ninguna";
+			}
+		}
+  		case 2:
+		{
+            employer = "FBI";
+			switch(Info[targetid][pRank])
+			{
+			    case 1: rank = "Agente";
+			    case 2: rank = "Agente Superior";
+			    case 3: rank = "Agente Especial";
+			    case 4: rank = "Agente Especializado";
+			    case 5: rank = "Sub/Director";
+			    case 6: rank = "Director";
+			    default: rank = "Agente";
+			}
+			switch(Info[targetid][pDivision])
+			{
+			    case 1: division = "General";
+			    case 2: division = "DIVHO";
+			    case 3: division = "UCO";
+			    case 4: division = "UI";
+			    case 5: division = "RR.HH";
+			    case 6: division = "URRE";
+			    default: division = "DIVHO";
+			}
+		}
+  		case 3:
+		{
+            employer = "Guardia Nacional";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Soldado";
+				case 2: rank = "Cabo";
+				case 3: rank = "Sargento";
+				case 4: rank = "Capitan";
+				case 5: rank = "Mayor";
+				case 6: rank = "Coronel";
+				default: rank = "Soldado";
+			}
+			switch(Info[targetid][pDivision])
+			{
+			    case 1: division = "General";
+				case 2: division = "FASA";
+			    case 3: division = "EMM";
+			    case 4: division = "BO";
+			    case 5: division = "FMSA";
+			    default: division = "Ninguna";
+			}
+		}
+  		case 4:
+		{
+            employer = "S.E.C";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Médico";
+				case 2: rank = "Paramédico";
+				case 3: rank = "Bombero";
+				case 4: rank = "Supervisor";
+				case 5: rank = "Jefe de Departamento";
+				case 6: rank = "Director";
+				default: rank = "Prácticante";
+			}
+		}
+		case 5:
+		{
+	        employer = "SATV News";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Becario";
+				case 2: rank = "Redactor";
+				case 3: rank = "Periodista";
+				case 4: rank = "Enviado Especial";
+				case 5: rank = "Presentador";
+				case 6: rank = "Director";
+				default: rank = "Becario";
+			}
+			division = "Ninguna";
+		}
+  		case 6:
+		{
+            employer = "Mecánicos LS";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Ayudante";
+				case 2: rank = "Trucker";
+				case 3: rank = "Mecánico";
+				case 4: rank = "Ingeniero";
+				case 5: rank = "Supervisor";
+				case 6: rank = "Director";
+				default: rank = "Ayudante";
+			}
+			division = "Ninguna";
+		}
+  		case 7:
+		{
+	        employer = "Gobierno";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Staff";
+				case 2: rank = "Secretario";
+				case 3: rank = "Alcalde de LS";
+				case 4: rank = "Ministro de";
+				case 5: rank = "Vice-Presidente";
+				case 6: rank = "Presidente";
+				default: rank = "Staff";
+			}
+			switch(Info[targetid][pDivision])
+			{
+			    case 2: division = "Chofer";
+			    case 3: division = "UG";
+			    case 4: division = "Defensa";
+			    case 5: division = "Justicia";
+			    case 6: division = "Economía";
+			    default: division = "Ninguna";
+			}
+			division = "Ninguna";
+		}
+		case 8:
+		{
+		    employer = "Agencia Hitman";
+		    switch(Info[targetid][pRank])
+		    {
+    			case 1: rank = "Novato";
+				case 2: rank = "Asesino";
+				case 3: rank = "Sicario";
+				case 4: rank = "Agente Especial";
+				case 5: rank = "Vice Director";
+				case 6: rank = "Director";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+		case 9:
+		{
+		    employer = "Sistema Judicial";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Abogado";
+				case 2: rank = "Secretario";
+				case 3: rank = "Fiscal";
+				case 4: rank = "Juez";
+				case 5: rank = "Asociado";
+				case 6: rank = "Director General";
+				default: rank = "Abogado";
+			}
+			division = "Ninguna";
+		}
+		case 10:
+		{
+			employer = "Groove";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Novato";
+				case 2: rank = "Aprendiz";
+				case 3: rank = "Asesino";
+				case 4: rank = "Escolta";
+				case 5: rank = "Mano derecha";
+				case 6: rank = "Lider";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+        case 11:
+		{
+			employer = "Ballas";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Novato";
+				case 2: rank = "Aprendiz";
+				case 3: rank = "Asesino";
+				case 4: rank = "Escolta";
+				case 5: rank = "Mano derecha";
+				case 6: rank = "Lider";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+        case 12:
+		{
+			employer = "Latin Kings";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Novato";
+				case 2: rank = "Aprendiz";
+				case 3: rank = "Asesino";
+				case 4: rank = "Escolta";
+				case 5: rank = "Mano derecha";
+				case 6: rank = "Lider";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+		case 13:
+		{
+		    employer = "Sureños 13";
+		    switch(Info[targetid][pRank])
+		    {
+		        case 1: rank = "Rata";
+				case 2: rank = "Cholo";
+				case 3: rank = "Vigilante";
+				case 4: rank = "Real Vato";
+				case 5: rank = "Vato del Rey";
+				case 6: rank = "Rey del Barrio";
+				default: rank = "Basurero";
+			}
+			division = "Ninguna";
+		}
+        case 14:
+		{
+			employer = "Mafia Rusa";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Novato";
+				case 2: rank = "Aprendiz";
+				case 3: rank = "Asesino";
+				case 4: rank = "Escolta";
+				case 5: rank = "Mano derecha";
+				case 6: rank = "Lider";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+		case 15:
+		{
+			employer = "La Cosa Nostra";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "Asociatto";
+				case 2: rank = "Soldato";
+				case 3: rank = "Capo";
+				case 4: rank = "Consigliere";
+				case 5: rank = "Sottocapo";
+				case 6: rank = "Don";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+
+		case 16:
+		{
+		    employer = "Yakuza";
+		    switch(Info[targetid][pRank])
+		    {
+    			case 1: rank = "Kyodai";
+				case 2: rank = "Wakashu";
+				case 3: rank = "Senpai Kohai";
+				case 4: rank = "Saiko Komon";
+				case 5: rank = "Sumiyoshi";
+				case 6: rank = "Oyabun";
+				default: rank = "Kyodai";
+			}
+			division = "Ninguna";
+		}
+		case 17:
+		{
+            employer = "Cartel del Golfo";
+			switch(Info[targetid][pRank])
+			{
+			    case 1: rank = "Guardia";
+			    case 2: rank = "Cosechador";
+			    case 3: rank = "Contrabandista";
+			    case 4: rank = "Narcotraficante";
+			    case 5: rank = "Mano Derecha";
+			    case 6: rank = "Jefazo";
+			    default: rank = "Guardia";
+   			}
+		}
+        case 18:
+		{
+            employer = "Donakov";
+			switch(Info[targetid][pRank])
+			{
+                case 1: rank = "Novato";
+				case 2: rank = "Aprendiz";
+				case 3: rank = "Hombre De Honor";
+				case 4: rank = "Hombre de Confianza";
+				case 5: rank = "Mano Derecha";
+				case 6: rank = "Don";
+				default: rank = "Novato";
+			}
+			division = "Ninguna";
+		}
+		case 19:
+		{
+	        employer = "FACC 19";
+			switch(Info[targetid][pRank])
+			{
+				case 1: rank = "R1";
+				case 2: rank = "R2";
+				case 3: rank = "R3";
+				case 4: rank = "R4";
+				case 5: rank = "R5";
+				case 6: rank = "R6";
+				default: rank = "R0";
+			}
+			division = "Ninguna";
+		}
+        case 20:
+		{
+            employer = "FACC 20";
+			switch(Info[targetid][pRank])
+			{
+                case 1: rank = "R1";
+				case 2: rank = "R2";
+				case 3: rank = "R3";
+				case 4: rank = "R4";
+				case 5: rank = "R5";
+				case 6: rank = "R6";
+				default: rank = "R0";
+			}
+			division = "Ninguna";
+		}
+
+	    default: { employer = "Ninguna"; division = "Ninguna"; rank = "N/A"; }
+	}
+	return 1;
+}
+
+//*******************Pago de Facciones*******************
+new IDCode[MAX_PLAYERS];
+new PayDayCodes[22][6] = {
+{"EULRP"},
+{"JHONY"},
+{"FCKME"},
+{"ALEXY"},
+{"INOOB"},
+{"PU1A4"},
+{"PAYME"},
+{"PAWNO"},
+{"PORNO"},
+{"YOUSH"},
+{"XD365"},
+{"SCR15"},
+{"ROLBT"},
+{"LSPD7"},
+{"DARDM"},
+{"DMERO"},
+{"RODEO"},
+{"PGERO"},
+{"SKYPE"},
+{"ALDRP"},
+{"SHOTT"},
+{"ALDER"}
+};
+
+//*******************Sistema de armas*******************
+//sistema tirararma
+new ObjectID[MAX_ARMAS][1];
+new Float:ObjCoords[MAX_ARMAS][3];
+new Object[MAX_ARMAS];
+new GunObjects[47][0] = { // By Valentin Carranza
+	{0},// Ninguna.
+	{331},// Puño Metalico.
+	{333},// Palo de golf.
+	{334},// Porra policial.
+	{335},// Navaja.
+	{336},// Bate de béisbol.
+	{337},// Pala.
+	{338},// Palo de pool.
+	{339},// Katana.
+	{341},// Motosierra.
+	{321},// Consolador violeta.
+	{322},// Consolador corto blanco.
+	{323},// Consolador largo blanco.
+	{324},// Consolador vibrador.
+	{325},// Ramo de flores.
+	{326},// Bastón.
+	{342},// Granada.
+	{343},// Grabada de gas lacrimógeno.
+	{344},// Cóctel Molotov.
+	{0},
+	{0},
+	{0},
+	{346},// 9mm.
+	{347},// 9mm con silenciador.
+	{348},// Desert eagle.
+	{349},// Escopeta normal.
+	{350},// Escopeta recortada.
+	{351},// Escopeta de combate.
+	{352},// UZI
+	{353},// MP5
+	{355},// AK47
+	{356},// M4
+	{372},// Tec-9
+	{357},// Rifle de caza.
+	{358},// Rifle de francotirador (sniper)
+	{359},// Lanzaconhetes.
+	{360},// Lanzacohetes busca-calor.
+	{361},// Lanzallamas.
+	{362},// Minigun.
+	{363},// Detonador.
+	{364},// Botón de detonador.
+	{365},// Aerosol de gas pimienta.
+	{366},// Extinguidor de fuego.
+	{367},// Cámara fotográfica.
+	{368},// Gafas de visión nocturna.
+	{368},// Gafas de visión infrarroja.
+	{371}// Paracaídas.
+
+
+
+
+

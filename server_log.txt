@@ -1,0 +1,6520 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loaded 5 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:63191 requests connection cookie.
+Incoming connection: 192.168.1.2:63191 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:50223 requests connection cookie.
+Incoming connection: 192.168.1.2:50223 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /aduty
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /fly
+[CMD] [Daisuke Sama]: /fly
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /gotodoor 1
+[CMD] [Daisuke Sama]: /gotodoor 2
+[CMD] [Daisuke Sama]: /gotodoor 3
+[CMD] [Daisuke Sama]: /gotodoor 2
+[CMD] [Daisuke Sama]: /gotodoor 1
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /gotodoor 3
+[CMD] [Daisuke Sama]: /ddedit borrar 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 4
+[CMD] [Daisuke Sama]: /gotodoor 5
+[CMD] [Daisuke Sama]: /gotodoor 6
+[CMD] [Daisuke Sama]: /gotodoor 7
+[CMD] [Daisuke Sama]: /gotodoor 8
+[CMD] [Daisuke Sama]: /gotodoor 9
+[CMD] [Daisuke Sama]: /gotodoor 9
+[CMD] [Daisuke Sama]: /gotodoor 10
+[CMD] [Daisuke Sama]: /gotodoor 11
+[CMD] [Daisuke Sama]: /ddedit exterior 11
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 72
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 86
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /jepack
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 86
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 12
+[CMD] [Daisuke Sama]: /ddedit exterior 12
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 13
+[CMD] [Daisuke Sama]: /gotodoor 14
+[CMD] [Daisuke Sama]: /gotodoor 15
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /gotodoor 15
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /ddedit exterior 55
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /darlider 0 7
+[CMD] [Daisuke Sama]: /ddedit
+[CMD] [Daisuke Sama]: /ddedit customexterior 55
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddpass
+[CMD] [Daisuke Sama]: /ddpass nada
+[CMD] [Daisuke Sama]: /ddpass 
+[CMD] [Daisuke Sama]: /ddpass  55 nada
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /duda .
+[CMD] [Daisuke Sama]: /aduda 0
+[CMD] [Daisuke Sama]: /re 0 ,
+[CMD] [Daisuke Sama]: /creditos
+[CMD] [Daisuke Sama]: /gotooor
+[CMD] [Daisuke Sama]: /gotodoor
+[CMD] [Daisuke Sama]: /gotodoor 13
+[CMD] [Daisuke Sama]: /gotodoor 14
+[CMD] [Daisuke Sama]: /gotodoor 15
+[CMD] [Daisuke Sama]: /gotodoor 16
+[CMD] [Daisuke Sama]: /gotodoor 17
+[CMD] [Daisuke Sama]: /gotodoor 18
+[CMD] [Daisuke Sama]: /gotodoor 19
+[CMD] [Daisuke Sama]: /gotodoor 20
+[CMD] [Daisuke Sama]: /gotodoor 21
+[CMD] [Daisuke Sama]: /gotodoor 22
+[CMD] [Daisuke Sama]: /gotodoor 23
+[CMD] [Daisuke Sama]: /gotodoor 24
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 24
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /comprar 
+[CMD] [Daisuke Sama]: /ddedit exterior 25
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 25
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 26
+[CMD] [Daisuke Sama]: /ddedit exterior 115
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 27
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 27
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 28
+[CMD] [Daisuke Sama]: /gotodoor 28
+[CMD] [Daisuke Sama]: /gotodoor 28
+[CMD] [Daisuke Sama]: /gotodoor 27
+[CMD] [Daisuke Sama]: /gotodoor 29
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /ddedit exterior 91
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit borrar 55
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 30
+[CMD] [Daisuke Sama]: /gotodoor 31
+[CMD] [Daisuke Sama]: /gotodoor 32
+[CMD] [Daisuke Sama]: /jetapck
+[CMD] [Daisuke Sama]: /jetapack
+[CMD] [Daisuke Sama]: /jetapck
+[CMD] [Daisuke Sama]: /jetapack
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /gotodoor 33
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /atm
+[CMD] [Daisuke Sama]: /gotodoor 34
+[CMD] [Daisuke Sama]: /jail 0 1
+[CMD] [Daisuke Sama]: /jail 0 1 .
+[CMD] [Daisuke Sama]: /liberar 0
+[CMD] [Daisuke Sama]: /liberar 0 0
+[CMD] [Daisuke Sama]: /gotodoor 35
+[CMD] [Daisuke Sama]: /gotodoor 36
+[CMD] [Daisuke Sama]: /gotodoor 37
+[CMD] [Daisuke Sama]: /gotodoor 38
+[CMD] [Daisuke Sama]: /gotodoor 39
+[CMD] [Daisuke Sama]: /gotodoor 40
+[CMD] [Daisuke Sama]: /gotodoor 41
+[CMD] [Daisuke Sama]: /gotodoor 42
+[CMD] [Daisuke Sama]: /gotodoor 43
+[CMD] [Daisuke Sama]: /gotodoor 44
+[warning] client exceeded 'ackslimit' 192.168.1.2:50223 (3296) Limit: 3000/sec
+[part] Daisuke_Sama has left the server (0:0)
+[connection] 192.168.1.2:50230 requests connection cookie.
+Incoming connection: 192.168.1.2:50230 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /gotodoor 45
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /gotodoor 45
+[CMD] [Daisuke Sama]: /gotodoor 46
+[CMD] [Daisuke Sama]: /gotodoor 47
+[CMD] [Daisuke Sama]: /gotodoor 48
+[CMD] [Daisuke Sama]: /gotodoor 49
+[CMD] [Daisuke Sama]: /gotodoor 50
+[CMD] [Daisuke Sama]: /gotodoor 51
+[CMD] [Daisuke Sama]: /gotodoor 52
+[CMD] [Daisuke Sama]: /gotodoor 53
+[CMD] [Daisuke Sama]: /gotodoor 54
+[CMD] [Daisuke Sama]: /gotodoor 55
+[CMD] [Daisuke Sama]: /gotodoor 56
+[CMD] [Daisuke Sama]: /gotodoor 56
+[CMD] [Daisuke Sama]: /gotodoor 57
+[CMD] [Daisuke Sama]: /gotodoor 58
+[CMD] [Daisuke Sama]: /gotodoor 58
+[CMD] [Daisuke Sama]: /gotodoor 59
+[CMD] [Daisuke Sama]: /ddedit exterior 59
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 60
+[CMD] [Daisuke Sama]: /gotodoor 61
+[CMD] [Daisuke Sama]: /gotodoor 62
+[CMD] [Daisuke Sama]: /jetpacl
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 134
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 63
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /darlider 0 5
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit interior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit borrar 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 62
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 64
+[CMD] [Daisuke Sama]: /gotodoor 65
+[CMD] [Daisuke Sama]: /ddedit exterior 65
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 64
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 64
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit borrar 64
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 66
+[CMD] [Daisuke Sama]: /gotodoor 67
+[CMD] [Daisuke Sama]: /ddedit borrar 67
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 68
+[CMD] [Daisuke Sama]: /gotodoor 69
+[CMD] [Daisuke Sama]: /gotodoor 70
+[CMD] [Daisuke Sama]: /gotodoor 71
+[CMD] [Daisuke Sama]: /gotodoor 72
+[warning] client exceeded 'ackslimit' 192.168.1.2:50230 (3206) Limit: 3000/sec
+[part] Daisuke_Sama has left the server (0:0)
+[connection] 192.168.1.2:53965 requests connection cookie.
+Incoming connection: 192.168.1.2:53965 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /gotodoor 73
+[CMD] [Daisuke Sama]: /gotodoor 74
+[CMD] [Daisuke Sama]: /gotodoor 75
+[CMD] [Daisuke Sama]: /gotodoor 75
+[CMD] [Daisuke Sama]: /gotodoor 76
+[CMD] [Daisuke Sama]: /gotodoor 77
+[CMD] [Daisuke Sama]: /gotodoor 78
+[CMD] [Daisuke Sama]: /gotodoor 79
+[CMD] [Daisuke Sama]: /ddedit exterior 79
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 80
+[CMD] [Daisuke Sama]: /gotodoor 81
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 81
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 82
+[CMD] [Daisuke Sama]: /ddedit exterior 82
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 83
+[CMD] [Daisuke Sama]: /gotodoor 84
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /gotodoor 85
+[CMD] [Daisuke Sama]: /gotodoor 86
+[CMD] [Daisuke Sama]: /gotodoor 87
+[CMD] [Daisuke Sama]: /gotodoor 87
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /ddedit exterior 87
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 87
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 87
+[CMD] [Daisuke Sama]: /gotodoor 88
+[CMD] [Daisuke Sama]: /gotodoor 89
+[CMD] [Daisuke Sama]: /gotodoor 90
+[CMD] [Daisuke Sama]: /gotodoor 91
+[CMD] [Daisuke Sama]: /gotodoor 92
+[CMD] [Daisuke Sama]: /gotodoor 93
+[CMD] [Daisuke Sama]: /gotodoor 94
+[CMD] [Daisuke Sama]: /gotodoor 95
+[CMD] [Daisuke Sama]: /gotodoor 96
+[CMD] [Daisuke Sama]: /gotodoor 97
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /gotodoor 98
+[CMD] [Daisuke Sama]: /gotodoor 99
+[CMD] [Daisuke Sama]: /gotodoor 100
+[CMD] [Daisuke Sama]: /gotodoor 101
+[CMD] [Daisuke Sama]: /gotodoor 102
+[CMD] [Daisuke Sama]: /gotodoor 103
+[CMD] [Daisuke Sama]: /gotodoor 104
+[CMD] [Daisuke Sama]: /gotodoor 105
+[CMD] [Daisuke Sama]: /gotodoor 105
+[CMD] [Daisuke Sama]: /gotodoor 105
+[CMD] [Daisuke Sama]: /ddedit borrar 105
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 106
+[CMD] [Daisuke Sama]: /gotodoor 107
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /gotodoor 108
+[CMD] [Daisuke Sama]: /gotodoor 109
+[CMD] [Daisuke Sama]: /gotodoor 110
+[CMD] [Daisuke Sama]: /gotodoor 111
+[CMD] [Daisuke Sama]: /gotodoor 112
+[CMD] [Daisuke Sama]: /gotodoor 113
+[CMD] [Daisuke Sama]: /gotodoor 114
+[CMD] [Daisuke Sama]: /gotodoor 115
+[CMD] [Daisuke Sama]: /gotodoor 116
+[CMD] [Daisuke Sama]: /gotodoor 116
+[CMD] [Daisuke Sama]: /ddedit exterior 116
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 117
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 117
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /facciones
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:49913 requests connection cookie.
+Incoming connection: 192.168.1.2:49913 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 117
+sscanf warning: No default value found.
+RCON (In-Game): Player #0 (Daisuke_Sama) has logged in.
+[CMD] [Daisuke Sama]: /gotodoor 118
+[CMD] [Daisuke Sama]: /gotodoor 119
+[CMD] [Daisuke Sama]: /gotodoor 120
+[CMD] [Daisuke Sama]: /gotodoor 121
+[CMD] [Daisuke Sama]: /gotodoor 122
+[CMD] [Daisuke Sama]: /ddedit exterior 122
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 123
+[CMD] [Daisuke Sama]: /gotodoor 124
+[CMD] [Daisuke Sama]: /gotodoor 125
+[CMD] [Daisuke Sama]: /gotodoor 126
+[CMD] [Daisuke Sama]: /gotodoor 127
+[CMD] [Daisuke Sama]: /gotodoor 128
+[CMD] [Daisuke Sama]: /gotodoor 129
+[CMD] [Daisuke Sama]: /gotodoor 130
+[CMD] [Daisuke Sama]: /gotodoor 131
+[CMD] [Daisuke Sama]: /gotodoor 132
+[CMD] [Daisuke Sama]: /gotodoor 133
+[CMD] [Daisuke Sama]: /gotodoor 134
+[CMD] [Daisuke Sama]: /gotodoor 135
+[CMD] [Daisuke Sama]: /gotodoor 136
+[CMD] [Daisuke Sama]: /gotodoor 137
+[CMD] [Daisuke Sama]: /gotodoor 138
+[CMD] [Daisuke Sama]: /gotodoor 139
+[CMD] [Daisuke Sama]: /gotodoor 140
+[CMD] [Daisuke Sama]: /gotodoor 141
+[CMD] [Daisuke Sama]: /gotodoor 142
+[CMD] [Daisuke Sama]: /gotodoor 143
+[CMD] [Daisuke Sama]: /gotodoor 144
+[CMD] [Daisuke Sama]: /gotodoor 145
+[CMD] [Daisuke Sama]: /gotodoor 146
+[CMD] [Daisuke Sama]: /gotodoor 146
+[CMD] [Daisuke Sama]: /gotodoor 147
+[CMD] [Daisuke Sama]: /gotodoor 148
+[CMD] [Daisuke Sama]: /gotodoor 149
+[CMD] [Daisuke Sama]: /gotodoor 150
+[CMD] [Daisuke Sama]: /gotodoor 151
+[CMD] [Daisuke Sama]: /gotodoor 152
+[CMD] [Daisuke Sama]: /gotodoor 153
+[CMD] [Daisuke Sama]: /gotodoor 155
+[CMD] [Daisuke Sama]: /gotodoor 200
+[CMD] [Daisuke Sama]: /gotodoor 201
+[CMD] [Daisuke Sama]: /gotodoor 204
+[CMD] [Daisuke Sama]: /gotodoor 207
+[CMD] [Daisuke Sama]: /gotodoor 300
+[CMD] [Daisuke Sama]: /gotodoor 299
+[CMD] [Daisuke Sama]: /gotodoor 300
+[CMD] [Daisuke Sama]: /gotodoor 3001
+[CMD] [Daisuke Sama]: /gotodoor 301
+[CMD] [Daisuke Sama]: /gotodoor 400
+[CMD] [Daisuke Sama]: /gotodoor 500
+[CMD] [Daisuke Sama]: /gotodoor 600
+[CMD] [Daisuke Sama]: /gotodoor 500
+[CMD] [Daisuke Sama]: /gotodoor 400
+[CMD] [Daisuke Sama]: /gotodoor 499
+[CMD] [Daisuke Sama]: /gotodoor 499
+[CMD] [Daisuke Sama]: /gotodoor 475
+[CMD] [Daisuke Sama]: /gotodoor 472
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /adminnegocio
+[CMD] [Daisuke Sama]: /irnegocio 1
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /irnegocio 3
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /irnegocio 5
+[CMD] [Daisuke Sama]: /irnegocio 6
+[CMD] [Daisuke Sama]: /irnegocio 7
+[CMD] [Daisuke Sama]: /irnegocio 8
+[CMD] [Daisuke Sama]: /irnegocio 9
+[CMD] [Daisuke Sama]: /irnegocio 10
+[CMD] [Daisuke Sama]: /vermapa
+[CMD] [Daisuke Sama]: /vermapa
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /adminnegocio
+[CMD] [Daisuke Sama]: /crearnegocio
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /crearnegocio 1
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /jetoack
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /movernegocio 1
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /editarnegocio productor 1
+[CMD] [Daisuke Sama]: /editarnegocio productos 1
+[CMD] [Daisuke Sama]: /editarnegocio 1
+[CMD] [Daisuke Sama]: /editarnegocio tipo 1
+[CMD] [Daisuke Sama]: /editarnegocio tipo1
+[CMD] [Daisuke Sama]: /editarnegocio tipo 1
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /adminnegocio
+[CMD] [Daisuke Sama]: /interiornegocio
+[CMD] [Daisuke Sama]: /interiornegocio 1 1
+[CMD] [Daisuke Sama]: /borrarnegocio
+[CMD] [Daisuke Sama]: /borrarnegocio 1
+[CMD] [Daisuke Sama]: /facc
+[CMD] [Daisuke Sama]: /givegun
+[CMD] [Daisuke Sama]: /regalararma 0 27
+[CMD] [Daisuke Sama]: /regalararma 0 26
+[CMD] [Daisuke Sama]: /regalararma 0 25
+[CMD] [Daisuke Sama]: /macros
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:55470 requests connection cookie.
+Incoming connection: 192.168.1.2:55470 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /darliderxd
+[CMD] [Daisuke Sama]: /darlider
+[CMD] [Daisuke Sama]: /darliderxd
+[CMD] [Daisuke Sama]: /darliderxd 0 1
+[CMD] [Daisuke Sama]: /ls
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:59306 requests connection cookie.
+Incoming connection: 192.168.1.2:59306 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /ctoys
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /ctoys
+[CMD] [Daisuke Sama]: /cropa
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /cepo
+[CMD] [Daisuke Sama]: /crearnegocio 1
+[CMD] [Daisuke Sama]: /movernegocio 1
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /givegun 0 25
+[CMD] [Daisuke Sama]: /regalararma 0 25
+[CMD] [Daisuke Sama]: /cargar
+[CMD] [Daisuke Sama]: /cargador
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /darpuntorol
+[CMD] [Daisuke Sama]: /movernegocio 1
+[CMD] [Daisuke Sama]: /borrarnegocio 1
+[CMD] [Daisuke Sama]: /irnegocio
+[CMD] [Daisuke Sama]: /irnegocio 50
+[CMD] [Daisuke Sama]: /irnegocio 60
+[CMD] [Daisuke Sama]: /irnegocio 100
+[CMD] [Daisuke Sama]: /irnegocio 101
+[CMD] [Daisuke Sama]: /crearnegocio
+[CMD] [Daisuke Sama]: /crearnegocio 1
+[CMD] [Daisuke Sama]: /interiornegocio
+[CMD] [Daisuke Sama]: /interiornegocio 1
+[CMD] [Daisuke Sama]: /interiornegocio 1 345
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /editarnegocio productos
+[CMD] [Daisuke Sama]: /editarnegocio productos 100
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /editarnegocio tipo 5
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /actualizarsv
+EXE:saveAccounts;
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /adminnegocio
+[CMD] [Daisuke Sama]: /interiornegocio
+[CMD] [Daisuke Sama]: /interiornegocio 296.919982,-108.071998,1001.515625
+[CMD] [Daisuke Sama]: /interiornegocio 6
+[CMD] [Daisuke Sama]: /interiornegocio 1 296.919982,-108.071998,1001.515625
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /interiornegocio 1 
+[CMD] [Daisuke Sama]: /desbug
+[CMD] [Daisuke Sama]: /gotoco 296.919982,-108.071998,1001.515625
+[CMD] [Daisuke Sama]: /gotoco 296.919982,-108.071998,1001.515625 1
+[CMD] [Daisuke Sama]: /gotoco 296.919982,-108.071998,1001.515625 0
+[CMD] [Daisuke Sama]: /gotoco 296.919982,-108.071998 1001.515625 0
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 0
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 0
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 1
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 90
+[CMD] [Daisuke Sama]: /gotoco 296.919982 -108.071998 1001.515625 80
+[CMD] [Daisuke Sama]: /gotoco
+[CMD] [Daisuke Sama]: /gotoco 286.148986,-40.644397,1001.515625,1
+[CMD] [Daisuke Sama]: /gotoco 286.148986,-40.644397,1001.515625, 
+[CMD] [Daisuke Sama]: /gotoco 286.148986,-40.644397,1001.515625, 1
+[CMD] [Daisuke Sama]: /gotoco 286.148986,-40.644397 1001.515625
+[CMD] [Daisuke Sama]: /gotoco 286.148986 -40.644397 1001.515625
+[CMD] [Daisuke Sama]: /gotoco 286.148986 -40.644397 1001.5156251
+[CMD] [Daisuke Sama]: /gotoco 286.148986 -40.644397 1001.515625 1
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /interiornegocio 1
+[CMD] [Daisuke Sama]: /gotonegocio 1
+[CMD] [Daisuke Sama]: /inegocio 1
+[CMD] [Daisuke Sama]: /gotonegocio
+[CMD] [Daisuke Sama]: /irnegocio
+[CMD] [Daisuke Sama]: /irnegocio 1
+[CMD] [Daisuke Sama]: /crearnegocio 2
+[CMD] [Daisuke Sama]: /editarnegocio 2 tipo 2
+[CMD] [Daisuke Sama]: /editarnegocio tipo Ropa
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /editarnegocio 
+[CMD] [Daisuke Sama]: /editarnegocio nivel 8
+[CMD] [Daisuke Sama]: /editarnegocio tipo 6
+[CMD] [Daisuke Sama]: /editarnegocio nivel 2
+[CMD] [Daisuke Sama]: /dardinero
+[CMD] [Daisuke Sama]: /dardinero 0 1000000
+[CMD] [Daisuke Sama]: /comprarnegocio
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /editarnegocio 24/7
+[CMD] [Daisuke Sama]: /editarnegocio Tipo 2
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:63738 requests connection cookie.
+Incoming connection: 192.168.1.2:63738 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /irnegcio 2
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /editarnegocio 
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /irnegocio 1
+[CMD] [Daisuke Sama]: /borrarnegocio 1
+[CMD] [Daisuke Sama]: /borrarnegocio 2
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /crearnegocio 1
+[CMD] [Daisuke Sama]: /editarnegocio 
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 1
+[CMD] [Daisuke Sama]: /interriornegocio
+[CMD] [Daisuke Sama]: /interiornegocio
+[CMD] [Daisuke Sama]: /interiornegocio 1 
+[CMD] [Daisuke Sama]: /irnegocio 1
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /ctoys
+[CMD] [Daisuke Sama]: /editarnegocio nivel 8
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 2
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 1
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 0
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 1
+[CMD] [Daisuke Sama]: /irnegocio 1
+[CMD] [Daisuke Sama]: /crearnegocio
+[CMD] [Daisuke Sama]: /crearnegocio 2
+[CMD] [Daisuke Sama]: /editarnegocio tipo 2
+[CMD] [Daisuke Sama]: /editarnegocio nivel 8
+[CMD] [Daisuke Sama]: /gotoco 203.777999,-48.492397,1001.804687 1
+[CMD] [Daisuke Sama]: /gotoco 203.777999,-48.492397,1001.804687 1
+[CMD] [Daisuke Sama]: /gotoco 203.777999 -48.492397 1001.804687 1
+[CMD] [Daisuke Sama]: /interiornegocio 
+[CMD] [Daisuke Sama]: /interiornegocio 2
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /interiornegocio 2
+[CMD] [Daisuke Sama]: /interiornegocio 2
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 1
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 0
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 2
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 3
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 1
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 4
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 6
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 5
+[CMD] [Daisuke Sama]: /gotoco 207.054992 -138.804992 1003.507812 3
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /gotoco 204.332992 -166.694992 1000.523437 14
+[CMD] [Daisuke Sama]: /interiornegocio 2
+[CMD] [Daisuke Sama]: /irnegocio 2
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /vermapa
+[CMD] [Daisuke Sama]: /crearnegocio 3
+[CMD] [Daisuke Sama]: /editarnegocio nivel 8
+[CMD] [Daisuke Sama]: /gotoco -25.884498 -185.868988 1003.546875
+[CMD] [Daisuke Sama]: /gotoco -25.884498 -185.868988 1003.546875 17
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /interiornegocio 3
+[CMD] [Daisuke Sama]: /irnegocio 3
+[CMD] [Daisuke Sama]: /gotoco -25.884498 -185.868988 1003.546875 17
+[CMD] [Daisuke Sama]: /interiornegocio 3
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /irnegocio 3
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /gotoco -25.884498 -185.868988 1003.546875 17
+[CMD] [Daisuke Sama]: /irnegocio 3
+[CMD] [Daisuke Sama]: /gotoco -25.884498 -185.868988 1003.546875 17
+[CMD] [Daisuke Sama]: /interiornegocio 3
+[CMD] [Daisuke Sama]: /crearnegocio 4
+[CMD] [Daisuke Sama]: /editarnegocio nivel 8
+[CMD] [Daisuke Sama]: /gotoco 6.091179 -29.271898 1003.549438 6
+[CMD] [Daisuke Sama]: /gotoco 6.091179 -29.271898 1003.549438 10
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /gotoco 6.091179 -29.271898 1003.549438 10
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /gotoco -25.132598,-139.066986,1003.546875 16
+[CMD] [Daisuke Sama]: /gotoco -25.132598 -139.066986 1003.546875 16
+[CMD] [Daisuke Sama]: /interiornegocio 4
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 6
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 1
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 2
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 3
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 4
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 5
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 6
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 7
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 8
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 8
+[CMD] [Daisuke Sama]: /gotoco -26.691598 -55.714897 1003.546875 9
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /gotoco -27.312299 -29.277599 1003.557250 4
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /gotoco -30.946699 -89.609596 1003.546875 18
+[CMD] [Daisuke Sama]: /irnegocio
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /borrarnegocio 4
+[CMD] [Daisuke Sama]: /ddedit
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 116 1
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 116 2
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 116 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 116 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 115 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /crearnegocio 4
+[CMD] [Daisuke Sama]: /editarnegocio nivel 4
+[CMD] [Daisuke Sama]: /gotoco 314.820983 -141.431991 999.601562 7
+[CMD] [Daisuke Sama]: /interiornegocio 4
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /gotoco 314.820983 -141.431991 999.601562 7
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /gotoco 314.820983 -141.431991 999.601562 7
+[CMD] [Daisuke Sama]: /comprararma
+[CMD] [Daisuke Sama]: /comprararmas
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /irnegocio 4
+[CMD] [Daisuke Sama]: /editarnegocio t
+[CMD] [Daisuke Sama]: /editarnegocio tipo 5
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /editarnegocio tipo 1
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+RCON (In-Game): Player #0 (Daisuke_Sama) has logged in.
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /gotoco 1009.2381 48.5105 55.3221 1
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /crearnegocio 5
+[CMD] [Daisuke Sama]: /editarnegocio nivel 10
+[CMD] [Daisuke Sama]: /editarnegocio tipo
+[CMD] [Daisuke Sama]: /editarnegocio tipo 6
+[CMD] [Daisuke Sama]: /gotoco 1009.2381 48.5105 55.3221 1
+[CMD] [Daisuke Sama]: /interiornegocio 5
+[CMD] [Daisuke Sama]: /irnegocio 5
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /darlider 0 4
+[CMD] [Daisuke Sama]: /darlider 0 0
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:56172 requests connection cookie.
+Incoming connection: 192.168.1.2:56172 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /darlider 0 19
+[CMD] [Daisuke Sama]: /gob .
+[CMD] [Daisuke Sama]: /darlider 0 9
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /cp
+[CMD] [Daisuke Sama]: /cp
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /asiento 1
+[CMD] [Daisuke Sama]: /asiento
+[CMD] [Daisuke Sama]: /asiento 7
+[CMD] [Daisuke Sama]: /asiento 2
+[CMD] [Daisuke Sama]: /ap
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:51941 requests connection cookie.
+Incoming connection: 192.168.1.2:51941 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /darpremium
+[CMD] [Daisuke Sama]: /darpremium 0 5
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /ap
+RCON (In-Game): Player #0 (Daisuke_Sama) failed login.
+[CMD] [Daisuke Sama]: /daisukesabelarcon
+RCON (In-Game): Player #0 (Daisuke_Sama) has logged in.
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[NS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[NS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[NS-RP] Radares cargados correctamente.
+[NS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[NS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[NS-RP] Garages cargados correctamente.
+[NS-RP] Portones cargados correctamente.
+[NS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+4.0
+---------------------------------------
+Iniciando GAMEMODE NewState-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:52975 requests connection cookie.
+Incoming connection: 192.168.1.2:52975 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+RCON (In-Game): Player #0 (Daisuke_Sama) has logged in.
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:55747 requests connection cookie.
+Incoming connection: 192.168.1.2:55747 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /shopdoor
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /shopdoor
+[CMD] [Daisuke Sama]: /shopdoor 3
+[CMD] [Daisuke Sama]: /ddname 3 Entrar [Solo personal]
+[CMD] [Daisuke Sama]: /ddedit
+[CMD] [Daisuke Sama]: /ddedit interior 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /ddedit faccion 9
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 3
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickup
+[CMD] [Daisuke Sama]: /ddedit pickupmodel
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 1
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 4
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 5
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 6
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 7
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 8
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 9
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 10
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 11
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 12
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 13
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 14
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 15
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 16
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 17
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 18
+sscanf warning: No default value found.
+[chat] [Daisuke_Sama]: 9
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 19
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 20
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 21
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 22
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 23
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 24
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 25
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 26
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 27
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 28
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 22
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 21
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 3 23
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddname 3 Carcel y Equipamiento
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /comprarlicencia
+[CMD] [Daisuke Sama]: /shopdoor 5
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /jepack
+[CMD] [Daisuke Sama]: /jetpack
+[CMD] [Daisuke Sama]: /ddedit exterior 5
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /ddedit exterior 5
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 5
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 5
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /gotodoor 14
+[CMD] [Daisuke Sama]: /gotodoor 12
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /cuemta
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /darpremium
+[CMD] [Daisuke Sama]: /darpremium 0 5
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /gotodoor 76
+[CMD] [Daisuke Sama]: /gotodoor 74
+[CMD] [Daisuke Sama]: /gotodoor 63
+[CMD] [Daisuke Sama]: /gotodoor 63
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /shopdoor 63
+[CMD] [Daisuke Sama]: /ddedit interior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 63
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddname 63 Comisaría
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 63 1
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 63 2
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit pickupmodel 63 4
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /darlider 0 2
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /darlider 0 5
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /gotodoor 65
+[CMD] [Daisuke Sama]: /gotodoor 63
+[CMD] [Daisuke Sama]: /gotodoor 62
+[CMD] [Daisuke Sama]: /gotodoor 61
+[CMD] [Daisuke Sama]: /gotodoor 89
+[CMD] [Daisuke Sama]: /gotodoor 94
+[CMD] [Daisuke Sama]: /gotodoor 97
+[CMD] [Daisuke Sama]: /orinar
+[CMD] [Daisuke Sama]: /ddedit borrar 97
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /shopdoor 97
+[CMD] [Daisuke Sama]: /ddname 97 Estudio de LSTV
+[CMD] [Daisuke Sama]: /ddedit interior 97
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /shopcar
+[CMD] [Daisuke Sama]: /shopcars
+[CMD] [Daisuke Sama]: /darauto
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /darlider 0 6
+[CMD] [Daisuke Sama]: /apgaraje
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /apgarage
+[CMD] [Daisuke Sama]: /darauto 0 411 0 0 0
+sscanf warning: Strings without a length are deprecated, please add a destination size.
+[CMD] [Daisuke Sama]: /mduty
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /nitro
+[CMD] [Daisuke Sama]: /menu
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /cmdstaff
+[CMD] [Daisuke Sama]: /adminfacc
+[CMD] [Daisuke Sama]: /adminfacc
+[CMD] [Daisuke Sama]: /adminfac
+[CMD] [Daisuke Sama]: /adminfac
+[CMD] [Daisuke Sama]: /adminfacc
+[CMD] [Daisuke Sama]: /adminfacciones
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:54730 requests connection cookie.
+Incoming connection: 192.168.1.2:54730 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /tiempojail
+[CMD] [Daisuke Sama]: /a .
+[CMD] [Daisuke Sama]: /ao .
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /j ,
+[CMD] [Daisuke Sama]: /ao .
+[CMD] [Daisuke Sama]: /aa .
+[CMD] [Daisuke Sama]: /irfacc
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:62494 requests connection cookie.
+Incoming connection: 192.168.1.2:62494 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /msj
+[CMD] [Daisuke Sama]: /ah
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /ah
+[CMD] [Daisuke Sama]: /ddedicados
+[CMD] [Daisuke Sama]: /deddicado
+[CMD] [Daisuke Sama]: /dedicados
+[CMD] [Daisuke Sama]: /dpr
+[CMD] [Daisuke Sama]: /dargame
+[CMD] [Daisuke Sama]: /daregame
+[CMD] [Daisuke Sama]: /daregame 0
+[CMD] [Daisuke Sama]: /dpr
+[CMD] [Daisuke Sama]: /dpr 0 10
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /dpr 0 100
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /pstat
+[CMD] [Daisuke Sama]: /darstat
+[CMD] [Daisuke Sama]: /soporte
+[CMD] [Daisuke Sama]: /infofacciones
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:56151 requests connection cookie.
+Incoming connection: 192.168.1.2:56151 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /sf
+[CMD] [Daisuke Sama]: /ls
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:50788 requests connection cookie.
+Incoming connection: 192.168.1.2:50788 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /irfacc
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /salirayuda
+[CMD] [Daisuke Sama]: /darpremium
+[CMD] [Daisuke Sama]: /darpremium 0 4
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /n .
+[CMD] [Daisuke Sama]: /darstat
+[CMD] [Daisuke Sama]: /darstat 0 1 4
+[CMD] [Daisuke Sama]: /n .
+[CMD] [Daisuke Sama]: /darstat 0 1 6
+[CMD] [Daisuke Sama]: /n .
+[CMD] [Daisuke Sama]: /darstat 0 1 3
+[CMD] [Daisuke Sama]: /creditos
+[CMD] [Daisuke Sama]: /version
+[CMD] [Daisuke Sama]: /casco
+[CMD] [Daisuke Sama]: /casco
+[CMD] [Daisuke Sama]: /casco
+[CMD] [Daisuke Sama]: /cinturon
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /darlider 0 10
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /editarm
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /regalararma 0 8
+[CMD] [Daisuke Sama]: /regalararma 0 7
+[CMD] [Daisuke Sama]: /regalararma 0 6
+[CMD] [Daisuke Sama]: /regalararma 0 16
+[CMD] [Daisuke Sama]: /regalararma 0 15
+[CMD] [Daisuke Sama]: /regalararma 0 17
+[CMD] [Daisuke Sama]: /regalararma 0 18
+[CMD] [Daisuke Sama]: /regalararma 0 19
+[CMD] [Daisuke Sama]: /regalararma 0 20
+[CMD] [Daisuke Sama]: /regalararma 0 21
+[CMD] [Daisuke Sama]: /regalararma 0 22
+[CMD] [Daisuke Sama]: /cartel
+[CMD] [Daisuke Sama]: /ipod
+[CMD] [Daisuke Sama]: /ipod
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /buscarjob
+[CMD] [Daisuke Sama]: /jobayuda
+[CMD] [Daisuke Sama]: /tarma
+[CMD] [Daisuke Sama]: /tirararmas
+[CMD] [Daisuke Sama]: /rarma
+[CMD] [Daisuke Sama]: /tirar armas
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /a .
+[CMD] [Daisuke Sama]: /w 0 .
+[CMD] [Daisuke Sama]: /recibirstats
+[CMD] [Daisuke Sama]: /recibirstats
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /comprar
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /ddedit
+[CMD] [Daisuke Sama]: /ddedit vip 116 4
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /editarnegocio
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /gotoco
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 1
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 2
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 3
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 4
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 5
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 6
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 7
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 8
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 9
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 10
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 11
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 12
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 13
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 14
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 15
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 16
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 17
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 18
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 18
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 19
+[CMD] [Daisuke Sama]: /gotoco 1328.0438 -1760.3077 13.5559 10
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /regalararma
+[CMD] [Daisuke Sama]: /regalararma 0 41
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /graffiti
+[CMD] [Daisuke Sama]: /a No
+[CMD] [Daisuke Sama]: /ah
+[CMD] [Daisuke Sama]: /crearactortemp
+[CMD] [Daisuke Sama]: /musica
+[CMD] [Daisuke Sama]: /comprarlicencia
+[CMD] [Daisuke Sama]: /comprarlicencia
+[CMD] [Daisuke Sama]: /comprarlicencia
+[CMD] [Daisuke Sama]: /comprarlicencia
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /editarm
+[CMD] [Daisuke Sama]: /editarm 1 1000
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /tirar armas
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /equipo
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /cp
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /cp
+[CMD] [Daisuke Sama]: /editarfacc
+[CMD] [Daisuke Sama]: /editarfac
+[CMD] [Daisuke Sama]: /editarfac
+[CMD] [Daisuke Sama]: /adminfacciones
+[CMD] [Daisuke Sama]: /statusfacc
+[CMD] [Daisuke Sama]: /verfam
+[CMD] [Daisuke Sama]: /moverf
+[CMD] [Daisuke Sama]: /editarf
+[CMD] [Daisuke Sama]: /editarf 1 nombre SAPD
+[CMD] [Daisuke Sama]: /editarf 1 Lider1 Daisuke_Sama
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /editarf 1 Lider2 Nadie
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /adminfacciones
+[CMD] [Daisuke Sama]: /editarp
+[CMD] [Daisuke Sama]: /editarp 1 3500
+[CMD] [Daisuke Sama]: /rango
+[CMD] [Daisuke Sama]: /editarp 1 8500
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /cp
+[CMD] [Daisuke Sama]: /editarf
+[CMD] [Daisuke Sama]: /editarf nombre LSPD
+[CMD] [Daisuke Sama]: /editarf 1 nombre LSPD
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /limpiar
+[CMD] [Daisuke Sama]: /limpiarchat
+[CMD] [Daisuke Sama]: /ap
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /ts
+[CMD] [Daisuke Sama]: /foro
+[CMD] [Daisuke Sama]: /fb
+[CMD] [Daisuke Sama]: /hora
+[CMD] [Daisuke Sama]: /cp
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:61716 requests connection cookie.
+Incoming connection: 192.168.1.2:61716 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /darpremium 
+[CMD] [Daisuke Sama]: /darpremium 0 4
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:63045 requests connection cookie.
+Incoming connection: 192.168.1.2:63045 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /msjlogueo
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /adminduty Bienvedio Seas a la ciudad
+[CMD] [Daisuke Sama]: /msjlogueo Bienvedio Seas a la ciudad
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:61340 requests connection cookie.
+Incoming connection: 192.168.1.2:61340 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /darpremium 0 4
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:61009 requests connection cookie.
+Incoming connection: 192.168.1.2:61009 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /darpremium 0 4
+[CMD] [Daisuke Sama]: /darstat
+[CMD] [Daisuke Sama]: /darstat 0 26 1
+[CMD] [Daisuke Sama]: /darstat 0 26 2
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:51461 requests connection cookie.
+Incoming connection: 192.168.1.2:51461 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /cuenta
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:50214 requests connection cookie.
+Incoming connection: 192.168.1.2:50214 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /roda
+[CMD] [Daisuke Sama]: /acciones
+[CMD] [Daisuke Sama]: /animaciones
+[CMD] [Daisuke Sama]: /rodar
+[CMD] [Daisuke Sama]: /rodar
+[CMD] [Daisuke Sama]: /no
+[CMD] [Daisuke Sama]: /depie
+[CMD] [Daisuke Sama]: /stop
+[CMD] [Daisuke Sama]: /stop
+[CMD] [Daisuke Sama]: /levantarse
+[CMD] [Daisuke Sama]: /rodar
+[CMD] [Daisuke Sama]: /rodar
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /darpremium 0 4
+[CMD] [Daisuke Sama]: /cuenta
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:57295 requests connection cookie.
+Incoming connection: 192.168.1.2:57295 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /cuenta
+[CMD] [Daisuke Sama]: /ayudavip
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /buscartrabajo
+[CMD] [Daisuke Sama]: /buscartrabajo
+[CMD] [Daisuke Sama]: /buscartrabajo
+[CMD] [Daisuke Sama]: /buscartrabajo
+[CMD] [Daisuke Sama]: /forcep
+[CMD] [Daisuke Sama]: /setpayday 1
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /setpayday 1
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /editarpaga
+[CMD] [Daisuke Sama]: /adminfacciones
+[CMD] [Daisuke Sama]: /editarp
+[CMD] [Daisuke Sama]: /editarp 1 350
+[CMD] [Daisuke Sama]: /editarp 1 3500
+[CMD] [Daisuke Sama]: /seypayday
+[CMD] [Daisuke Sama]: /setpayday
+[CMD] [Daisuke Sama]: /setpayday 1
+[CMD] [Daisuke Sama]: /tarjeta
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /editarp 1 2500
+[CMD] [Daisuke Sama]: /setpayday 1
+[CMD] [Daisuke Sama]: /arm
+[CMD] [Daisuke Sama]: /atm
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /editarp
+[CMD] [Daisuke Sama]: /editarp 1 3000
+[CMD] [Daisuke Sama]: /setpayday 1
+[CMD] [Daisuke Sama]: /gotodoor 112
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /gotodoor 200
+[CMD] [Daisuke Sama]: /gotodoor 2
+[CMD] [Daisuke Sama]: /gotodoor 200
+[CMD] [Daisuke Sama]: /gotodoor 201
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /shopdoor 201
+[CMD] [Daisuke Sama]: /ddname 201 Banco de Los Santos
+[CMD] [Daisuke Sama]: /ddedit interior 201
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit interior 201
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /ddedit exterior 201
+sscanf warning: No default value found.
+[CMD] [Daisuke Sama]: /bailar
+[CMD] [Daisuke Sama]: /bailar 1
+[CMD] [Daisuke Sama]: /estado
+[CMD] [Daisuke Sama]: /robarcoche
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:49336 requests connection cookie.
+Incoming connection: 192.168.1.2:49336 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminfacciones
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /ah
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /ah
+[CMD] [Daisuke Sama]: /payday
+[CMD] [Daisuke Sama]: /ayuda
+[CMD] [Daisuke Sama]: /aa .
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /creditos
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:52370 requests connection cookie.
+Incoming connection: 192.168.1.2:52370 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /callsign
+[CMD] [Daisuke Sama]: /callsign
+[CMD] [Daisuke Sama]: /callsign UNIDAD-001
+[CMD] [Daisuke Sama]: /callsign UNIDAD-001
+[CMD] [Daisuke Sama]: /callsign Unidad-Bravo-C001
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:55224 requests connection cookie.
+Incoming connection: 192.168.1.2:55224 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /f .
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /r .
+[CMD] [Daisuke Sama]: /darlider 0 1
+[CMD] [Daisuke Sama]: /crearactorpm
+[CMD] [Daisuke Sama]: /crearactorspm
+[CMD] [Daisuke Sama]: /crearactor
+[CMD] [Daisuke Sama]: /crearactor 1 293 Whaler_Streep
+[CMD] [Daisuke Sama]: /editaractor
+[CMD] [Daisuke Sama]: /editaractor anim 1
+[CMD] [Daisuke Sama]: /editaractor anim 2
+[CMD] [Daisuke Sama]: /editaractor anim 3
+[CMD] [Daisuke Sama]: /adminactor
+[CMD] [Daisuke Sama]: /animaractor
+[CMD] [Daisuke Sama]: /animaractor 1
+[CMD] [Daisuke Sama]: /animaractor 2
+[CMD] [Daisuke Sama]: /animaractor 3
+[CMD] [Daisuke Sama]: /animaractor 4
+[CMD] [Daisuke Sama]: /animaractor 5
+[CMD] [Daisuke Sama]: /animaractor 6
+[CMD] [Daisuke Sama]: /animaractor 7
+[CMD] [Daisuke Sama]: /animaractor 8
+[CMD] [Daisuke Sama]: /animaractor 9
+[CMD] [Daisuke Sama]: /animaractor 10
+[CMD] [Daisuke Sama]: /animaractor 11
+[CMD] [Daisuke Sama]: /animaractor 12
+[CMD] [Daisuke Sama]: /animaractor 13
+[CMD] [Daisuke Sama]: /animaractor 14
+[CMD] [Daisuke Sama]: /animaractor 15
+[CMD] [Daisuke Sama]: /animaractor 16
+[CMD] [Daisuke Sama]: /animaractor 17
+[CMD] [Daisuke Sama]: /animaractor 0
+[CMD] [Daisuke Sama]: /borraractor
+[CMD] [Daisuke Sama]: /borraractor 1
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /respawncars 40
+[part] Daisuke_Sama has left the server (0:1)
+El clima del servidor fue cambiado automáticamente [22H].
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:58469 requests connection cookie.
+Incoming connection: 192.168.1.2:58469 id: 0
+[join] Jessy_Hernandez has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Jessy_Hernandez has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:54155 requests connection cookie.
+Incoming connection: 192.168.1.2:54155 id: 0
+[join] Jessy_Hernandez has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Jessy_Hernandez has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:55518 requests connection cookie.
+Incoming connection: 192.168.1.2:55518 id: 0
+[join] Jessy_Hernandez has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Jessy_Hernandez has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+I couldn't load any gamemode scripts. Please verify your server.cfg
+It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+I couldn't load any gamemode scripts. Please verify your server.cfg
+It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+I couldn't load any gamemode scripts. Please verify your server.cfg
+It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:54271 requests connection cookie.
+Incoming connection: 192.168.1.2:54271 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /dni
+[CMD] [Daisuke Sama]: /dni 0
+[CMD] [Daisuke Sama]: /cuenta
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:62830 requests connection cookie.
+Incoming connection: 192.168.1.2:62830 id: 0
+[join] Test_Test has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Test_Test has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:65161 requests connection cookie.
+Incoming connection: 192.168.1.2:65161 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /facc
+[CMD] [Daisuke Sama]: /facciones
+[CMD] [Daisuke Sama]: /listafacc
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /listafacciones
+[CMD] [Daisuke Sama]: /fly
+[CMD] [Daisuke Sama]: /ls
+[part] Daisuke_Sama has left the server (0:1)
+[connection] 192.168.1.2:52378 requests connection cookie.
+Incoming connection: 192.168.1.2:52378 id: 0
+[join] Test_Test has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Test Test]: /saltartutorial
+[part] Test_Test has left the server (0:1)
+[connection] 192.168.1.2:53486 requests connection cookie.
+Incoming connection: 192.168.1.2:53486 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Daisuke Sama]: /adminduty
+[CMD] [Daisuke Sama]: /toys
+[CMD] [Daisuke Sama]: /ctoys
+[CMD] [Daisuke Sama]: /buscartrabajo
+[CMD] [Daisuke Sama]: /ls
+[CMD] [Daisuke Sama]: /sf
+[CMD] [Daisuke Sama]: /lv
+[CMD] [Daisuke Sama]: /dararma
+[CMD] [Daisuke Sama]: /regalararma
+[CMD] [Daisuke Sama]: /regalararma 0 38
+[CMD] [Daisuke Sama]: /regalararma 0 35
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 6 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:51234 requests connection cookie.
+Incoming connection: 192.168.1.2:51234 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[part] Daisuke_Sama has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G1.amx'...
+  Unable to load filterscript 'G1.amx'.
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkS.amx'...
+  Unable to load filterscript 'ParkS.amx'.
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loading filterscript 'MapSF.amx'...
+  Loaded 7 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:64763 requests connection cookie.
+Incoming connection: 192.168.1.2:64763 id: 0
+[join] Daisuke_Sama has joined the server (0:192.168.1.2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:50646 requests connection cookie.
+Incoming connection: 192.168.1.2:50646 id: 0
+[join] Test_test has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Test test]: /saltartutorial
+[CMD] [Test test]: /inventario
+[part] Test_test has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[WS-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[WS-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[WS-RP] Radares cargados correctamente.
+[WS-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[WS-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[WS-RP] Garages cargados correctamente.
+[WS-RP] Portones cargados correctamente.
+[WS-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE Whaler Streep-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 192.168.1.2:49214 requests connection cookie.
+Incoming connection: 192.168.1.2:49214 id: 0
+[join] Test_test has joined the server (0:192.168.1.2)
+DEBUG CheckVIPExpire
+[CMD] [Test test]: /saltartutorial
+[part] Test_test has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+Console input: 19
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+  Failed.
+ Loading plugin: streamer.dll
+  Failed.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 0 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+Script[gamemodes/NS4.amx]: Run time error 19: "File or function is not found"
+Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:59298 requests connection cookie.
+Incoming connection: 127.0.0.1:59298 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+2.8
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:51132 requests connection cookie.
+Incoming connection: 127.0.0.1:51132 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:50165 requests connection cookie.
+Incoming connection: 127.0.0.1:50165 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /casco
+[CMD] [Erick Michel]: /ignorar
+[part] Erick_Michel has left the server (0:0)
+[connection] 127.0.0.1:62253 requests connection cookie.
+Incoming connection: 127.0.0.1:62253 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /comprar
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:53449 requests connection cookie.
+Incoming connection: 127.0.0.1:53449 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+[part] Erick_Michel has left the server (0:2)
+[connection] 127.0.0.1:53450 requests connection cookie.
+Incoming connection: 127.0.0.1:53450 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /adminduty
+[CMD] [Erick Michel]: /a
+[CMD] [Erick Michel]: /ha
+[CMD] [Erick Michel]: /admin
+[CMD] [Erick Michel]: /stasts
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /darptrmiun
+[CMD] [Erick Michel]: /darpremium
+[CMD] [Erick Michel]: /darpremium 0 5
+[CMD] [Erick Michel]: /veh
+[CMD] [Erick Michel]: /veiculos
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:53988 requests connection cookie.
+Incoming connection: 127.0.0.1:53988 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /offadminduty
+[CMD] [Erick Michel]: /adminduty
+[CMD] [Erick Michel]: /adminduty
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /google
+[CMD] [Erick Michel]: /google
+[CMD] [Erick Michel]: /trabajo
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /acento
+[CMD] [Erick Michel]: /acento 19
+[chat] [Erick_Michel]: hola
+[CMD] [Erick Michel]: /informacion
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /vermapa
+[CMD] [Erick Michel]: /entrar
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /tomarpizza
+[CMD] [Erick Michel]: /tomarpizza
+[CMD] [Erick Michel]: /tomarpizza
+[CMD] [Erick Michel]: /tomarpizza
+[CMD] [Erick Michel]: /salirtrabajo
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /unirce2
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /ayudatrabajo2
+[CMD] [Erick Michel]: /cargarcamion
+[CMD] [Erick Michel]: /cargarcamion
+[CMD] [Erick Michel]: /tp
+[CMD] [Erick Michel]: /traercar
+[CMD] [Erick Michel]: /traer
+[CMD] [Erick Michel]: /traervih
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /equipo
+[CMD] [Erick Michel]: /JETPACK
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /renunciar2
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /vendertelefono
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /licenciataxi
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /taxiduty
+[CMD] [Erick Michel]: /buscartrabajo2
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /unirse
+[chat] [Erick_Michel]: Yrecogercesped
+[CMD] [Erick Michel]: /recogercesped
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:53990 requests connection cookie.
+Incoming connection: 127.0.0.1:53990 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:53992 requests connection cookie.
+Incoming connection: 127.0.0.1:53992 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /adminduty
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /ayudatrabajo2
+[CMD] [Erick Michel]: /creararma
+[CMD] [Erick Michel]: /guive
+[CMD] [Erick Michel]: /give
+[CMD] [Erick Michel]: /dar
+[CMD] [Erick Michel]: /dar 0 materiales 50000
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /renunciar2
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /plantar
+[CMD] [Erick Michel]: /semillas
+[CMD] [Erick Michel]: /gps
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /semilla
+[CMD] [Erick Michel]: /comprarcrack
+[CMD] [Erick Michel]: /comprarcrack 50
+[CMD] [Erick Michel]: /comprarcrack
+[CMD] [Erick Michel]: /comprarcrack 5
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /paquete
+[CMD] [Erick Michel]: /RENUNCIAR
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpqack
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /ayudatrabajo2
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /ruta
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /rutabus
+[CMD] [Erick Michel]: /precioviaje
+[CMD] [Erick Michel]: /precioviaje 500
+[CMD] [Erick Michel]: /rutabus
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /REPARAR
+[CMD] [Erick Michel]: /BUSCARTRABAJO
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /traerveiculo
+[CMD] [Erick Michel]: /darveh
+[CMD] [Erick Michel]: /ha
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /traerauto
+[CMD] [Erick Michel]: /traerauto 417
+[CMD] [Erick Michel]: /traerauto 425
+[CMD] [Erick Michel]: /darauto
+[CMD] [Erick Michel]: /darauto 0 417 
+[CMD] [Erick Michel]: /darauto 0 417 #003153 #B00000 1
+[CMD] [Erick Michel]: /expdoble
+[CMD] [Erick Michel]: /stats
+[CMD] [Erick Michel]: /darauto 417 azul rojo 100
+[CMD] [Erick Michel]: /darauto 0 417 azul azul 100
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /retirar
+[chat] [Erick_Michel]: 7unirce
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /COSECHAR
+[CMD] [Erick Michel]: /entrar
+[CMD] [Erick Michel]: /estado
+[CMD] [Erick Michel]: /macara
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /ir
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /crear
+[CMD] [Erick Michel]: /payday
+[CMD] [Erick Michel]: /crear
+[CMD] [Erick Michel]: /crear 0 paracaidas
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /ubirse
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /hduty
+[CMD] [Erick Michel]: /AYUDATRABAJO
+[CMD] [Erick Michel]: /venderhelado
+[CMD] [Erick Michel]: /venderelado0
+[CMD] [Erick Michel]: /venderhelado 0
+[CMD] [Erick Michel]: /chelado
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /renunciar
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /darstat
+[CMD] [Erick Michel]: /darstat 1
+[CMD] [Erick Michel]: /darstat 0 1 50
+[CMD] [Erick Michel]: /darstat 0 1 10
+[CMD] [Erick Michel]: /darstat 0 1 50
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /darstat 0 17 50
+[CMD] [Erick Michel]: /unirse
+[CMD] [Erick Michel]: /ayudatrabajo
+[CMD] [Erick Michel]: /trenduty
+[CMD] [Erick Michel]: /rutatren
+[CMD] [Erick Michel]: /buscartrabajo
+[CMD] [Erick Michel]: /irpunto
+[CMD] [Erick Michel]: /irpunto
+[CMD] [Erick Michel]: /la
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /renunciar2
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /comprarlicensia
+[CMD] [Erick Michel]: /comprarlisencia
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /comprarlicencia
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /LS
+[CMD] [Erick Michel]: /VERMAPA
+[CMD] [Erick Michel]: /JETPACK
+[CMD] [Erick Michel]: /COMPRARLICENCIA
+[CMD] [Erick Michel]: /APRENDERIDIOMA
+[CMD] [Erick Michel]: /jap hola
+[CMD] [Erick Michel]: /jrtpack
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /unirse2
+[CMD] [Erick Michel]: /AYUDATRABAJO2
+[CMD] [Erick Michel]: /PILOTODUTY
+[CMD] [Erick Michel]: /PILOTORUTA
+[CMD] [Erick Michel]: /AYUDATRABAJO2
+[CMD] [Erick Michel]: /RUTAAVION
+[CMD] [Erick Michel]: /RUTAAVION
+[CMD] [Erick Michel]: /RUTAAVION
+[death] Erick_Michel died 54
+[CMD] [Erick Michel]: /SERVICIOS MEDICOS
+[CMD] [Erick Michel]: /REVIVIR 0
+[CMD] [Erick Michel]: /LS
+[CMD] [Erick Michel]: /JETPACK
+[CMD] [Erick Michel]: /pilotoduty
+[CMD] [Erick Michel]: /RUTAAVION
+[CMD] [Erick Michel]: /reperarauto
+El clima del servidor fue cambiado automáticamente [22H].
+[CMD] [Erick Michel]: /repararveh
+[CMD] [Erick Michel]: /sf
+[death] Erick_Michel died 255
+[part] Erick_Michel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+password = ""  (string)
+
+Server Plugins
+--------------
+ Loading plugin: sscanf.dll
+
+
+ ===============================
+
+      sscanf plugin loaded.     
+
+   (c) 2009 Alex "Y_Less" Cole
+
+   0.3d-R2 500 Players "dnee"
+
+ ===============================
+
+  Loaded.
+ Loading plugin: streamer.dll
+
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+  Loaded.
+ Loading plugin: crashdetect.dl
+  Failed.
+ Loaded 2 plugins.
+
+
+Ban list
+--------
+ Loaded: samp.ban
+
+
+Filterscripts
+---------------
+  Loading filterscript 'GM.amx'...
+[STREAMER INICIANDOSE]
+[NS-RP] Objetos cargados correctamente.
+[NS-RP] 3D Labels cargados correctamente.
+[NS-RP] Iconos del mapa cargados correctamente.
+  Loading filterscript 'ISLA.amx'...
+  Loading filterscript 'RusosX.amx'...
+
+
+  |---------------------------------------------------
+  |--- LS Apartments 1 Filterscript
+  |--  Script v1.02
+  |--  5th February 2015
+  |---------------------------------------------------
+  |--  LS Apartments 1 Building object created
+  |--  LS Apartments 1 Car Park object created
+  |--  LS Apartments 1 Elevator created
+  |---------------------------------------------------
+  Loading filterscript 'G1.amx'...
+  Loading filterscript 'G2.amx'...
+  Loading filterscript 'FBI.amx'...
+  Loading filterscript 'ParkSide.amx'...
+  Loading filterscript 'GuardadoPosiciones.amx'...
+  ---------------------------------------------
+  | Guardado de Posiciones by HERMES | Cargado |
+  ---------------------------------------------
+  Loaded 8 filterscripts.
+
+ 
+ 
+ 
+ ======================================= 
+ |                                     | 
+ |        YSI version 3.09.0684        | 
+ |        By Alex "Y_Less" Cole        | 
+ |                                     | 
+ ======================================= 
+ 
+ 
+ 
+onfoot_rate = 40  (int, read-only)
+incar_rate = 40  (int, read-only)
+weapon_rate = 40  (int, read-only)
+Hizo SPAM.
+[INFINITY-RP] Casas cargadas correctamente (800). (Sistema Antiguo)
+[INFINITY-RP] Casas/propiedades cargadas correctamente (50). (Sistema Nuevo)
+[INFINITY-RP] Radares cargados correctamente.
+[INFINITY-RP] Negocios cargados correctamente.
+Cargado de objetos correctamente.
+Server Stats cargado correctamente
+[INFINITY-RP] Familias cargadas correctamente.
+Puntos cargados correctamente.
+Puertas dinamicas cargadas correctamente.
+[script] Lideres list Loaded Successfully . . .
+[INFINITY-RP] Garages cargados correctamente.
+[INFINITY-RP] Portones cargados correctamente.
+[INFINITY-RP] Actores cargados correctamente.
+Hq Familias cargadas correctamente.
+Mensajes cargados correctamente.
+ 
+ 
+1.3
+---------------------------------------
+Iniciando GAMEMODE INFINITY-RP
+---------------------------------------
+ 
+Number of vehicle models: 162
+[connection] 127.0.0.1:57554 requests connection cookie.
+Incoming connection: 127.0.0.1:57554 id: 0
+[join] Erick_Michel has joined the server (0:127.0.0.1)
+DEBUG CheckVIPExpire
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /vermapa
+[CMD] [Erick Michel]: /gps
+[CMD] [Erick Michel]: /adminduty
+[CMD] [Erick Michel]: /irpunto
+[CMD] [Erick Michel]: /ls
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /fracciones
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /darpremium 0
+[CMD] [Erick Michel]: /DARPREMIUM 4
+[CMD] [Erick Michel]: /DARPREMIUM 0 4
+[CMD] [Erick Michel]: /CREARACTORTEMP
+[CMD] [Erick Michel]: /DARAUTO
+[CMD] [Erick Michel]: /DARAUTO 0 451 
+[CMD] [Erick Michel]: /DARAUTO 0 451 1 2 1
+sscanf warning: Strings without a length are deprecated, please add a destination size.
+[CMD] [Erick Michel]: /equipo
+[CMD] [Erick Michel]: /repararveh
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /admonradar
+[CMD] [Erick Michel]: /admonradar
+[CMD] [Erick Michel]: /adminradar
+[CMD] [Erick Michel]: /soporte
+[CMD] [Erick Michel]: /ad holaa
+[CMD] [Erick Michel]: /ls
+[chat] [Erick_Michel]: ah
+[CMD] [Erick Michel]: /ha
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /darfa
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /mslogueo
+[CMD] [Erick Michel]: /daref
+[CMD] [Erick Michel]: /daref 0
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /adminfac
+[CMD] [Erick Michel]: /facciones
+[CMD] [Erick Michel]: /irf
+[CMD] [Erick Michel]: /irf 0
+[chat] [Erick_Michel]: 7MOVERF
+[CMD] [Erick Michel]: /MOVERF
+[CMD] [Erick Michel]: /editarf
+[CMD] [Erick Michel]: /adminfac
+[CMD] [Erick Michel]: /darlider
+[CMD] [Erick Michel]: /darlider 0 0
+[CMD] [Erick Michel]: /darlider 0 1
+[CMD] [Erick Michel]: /ayuda
+[CMD] [Erick Michel]: /vengala
+[CMD] [Erick Michel]: /vengala
+[CMD] [Erick Michel]: /cono
+[CMD] [Erick Michel]: /qb
+[CMD] [Erick Michel]: /fac
+[CMD] [Erick Michel]: /infofac
+[CMD] [Erick Michel]: /crearfac
+[CMD] [Erick Michel]: /crearfa
+[CMD] [Erick Michel]: /crearfa
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /vidainf
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /cambiarhora
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /setpayday
+[CMD] [Erick Michel]: /amotor
+[CMD] [Erick Michel]: /expdoble
+[CMD] [Erick Michel]: /expdoble
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /equipo
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /cticket
+[CMD] [Erick Michel]: /publico
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /clima
+[CMD] [Erick Michel]: /clima 2
+[CMD] [Erick Michel]: /clima 20
+[CMD] [Erick Michel]: /payday
+[CMD] [Erick Michel]: /desrenatrauto
+[CMD] [Erick Michel]: /desrentarauto
+[CMD] [Erick Michel]: /jetpack
+[CMD] [Erick Michel]: /clima 1
+[CMD] [Erick Michel]: /gps
+[CMD] [Erick Michel]: /traerveh
+[CMD] [Erick Michel]: /traercar
+[chat] [Erick_Michel]: ah
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /traer
+[CMD] [Erick Michel]: /ah
+[CMD] [Erick Michel]: /traerauto 701
+[CMD] [Erick Michel]: /gps
+[CMD] [Erick Michel]: /traerauto 703
+[CMD] [Erick Michel]: /repararveh
+[CMD] [Erick Michel]: /servicios
+[part] Erick_Michel has left the server (0:1)
